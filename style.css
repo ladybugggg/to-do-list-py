@@ -491,13 +491,13 @@ figcaption aside:nth-child(2) div p{
 /* Today CSS */
 
 .today-wrapper{
-    max-width: 80vw;
+    /* max-width: 80vw; */
     width: 100%;
     background: #ffff;
     height: 100vh;
     display: flex;
     flex-direction: row;
-    margin: 1.5rem auto;
+    margin: 0 auto;
     gap: 1rem;
 }
 
@@ -505,12 +505,36 @@ figcaption aside:nth-child(2) div p{
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 92vh;
+    height: 90vh;
     gap: 2rem;
     background: #f4f4f4;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 1.5rem 1rem 2rem 1rem;
     border-radius: 20px;
 }
+
+.today-wrapper .today-half1 input{
+    border-radius: 20px; 
+    margin-top: 1rem; 
+    text-indent: 40px; 
+    background: #ebebeb; 
+    height: 30px; 
+    
+}
+
+.today-half1 .search-icon{
+    position: absolute;
+    left: 5%;
+    top: 13%;
+}
+    
+.today-half1 .submenu{
+    line-height: 22px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
 .today-wrapper .today-half2{
     display: flex;
     flex-direction: column;
@@ -549,13 +573,13 @@ figcaption aside:nth-child(2) div p{
 /* Calender CSS */
 
 .calender-wrapper{
-    max-width: 80vw;
+    /* max-width: 80vw; */
     width: 100%;
     background: #ffff;
     height: 100vh;
     display: flex;
     flex-direction: row;
-    margin: 1.5rem auto;
+    margin: 0 auto;
     gap: 1rem;
 }
 
@@ -563,21 +587,46 @@ figcaption aside:nth-child(2) div p{
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 97vh;
+    height: 95vh;
     gap: 2rem;
     background: #f4f4f4;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 1.5rem 1rem 2rem 1rem;
     border-radius: 20px;
 }
+
+.calender-wrapper .calender-half1 input{
+    border-radius: 20px; 
+    margin-top: 1rem; 
+    text-indent: 40px; 
+    background: #ebebeb; 
+    height: 30px; 
+    
+}
+
+.calender-half1 .search-icon{
+    position: absolute;
+    left: 5%;
+    top: 13%;
+}
+    
+.calender-half1 .submenu{
+    line-height: 22px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+
 .calender-wrapper .calender-half2{
     display: flex;
     flex-direction: column;
-    width: 70%;
-    height: 92vh;
+    width: 75%;
+    height: 100vh;
     gap: 0.01rem;
     background: #ffff;
     border-radius: 20px;
-    padding: 0.5rem 2rem;
+    padding: 0 2rem;
     text-align: left;
 }
 
@@ -608,6 +657,62 @@ figcaption aside:nth-child(2) div p{
     
 }
 
+.calender-half2 .database1{
+    position: relative;
+}
+
+.calender-half2 form .database-paragraph{
+    position: absolute;
+    top: 2%;
+    left: 16%;
+    width: 85%;
+    height: 20px;
+    padding: 20px 0 20px 10px;
+    background: #D1EAED;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.calender-half2 form img{
+    position: absolute;
+    top: 55%;
+    left: 14%;
+
+}
+
+.calender-half2 form .meet{
+    position: relative;
+}
+
+.calender-half2 form .meet-paragraph{
+    position: absolute;
+    top: -40%;
+    left: 16%;
+    width: 28%;
+    height: 20px;
+    padding: 20px 0 20px 10px;
+    background: #D1EAED;
+    border-radius: 10px;
+    text-align: start;
+}
+
+
+.calender-half2 .database2{
+    position: relative;
+}
+
+.calender-half2 form .database2-paragraph{
+    position: absolute;
+    top: -40%;
+    left: 16%;
+    width: 28%;
+    height: 20px;
+    padding: 20px 0 20px 10px;
+    background: #ffdada;
+    border-radius: 10px;
+    text-align: left;
+}
+
 
 .calender-half2 .dayweek-month p{
     width: 25%;
@@ -622,6 +727,7 @@ figcaption aside:nth-child(2) div p{
 .calender-half2 form h5{
     font-weight: 800;
     padding: 1rem 7.5rem 0 7.5rem;
+    padding-left: 8rem;
 }
 
 
@@ -639,38 +745,8 @@ figcaption aside:nth-child(2) div p{
 }
 
 
-.calender-half2 form .database{
-    position: absolute;
-    top: 22%;
-    left: 43%;
-    width: 49%;
-    height: 20px;
-    padding: 20px 0 20px 10px;
-    background: #D1EAED;
-    border-radius: 10px;
-}
 
-.calender-half2 form .meet{
-    position: absolute;
-    top: 37.5%;
-    left: 43%;
-    width: 15%;
-    height: 20px;
-    padding: 20px 0 20px 10px;
-    background: #D1EAED;
-    border-radius: 10px;
-}
 
-.calender-half2 form .database2{
-    position: absolute;
-    top: 68%;
-    left: 43%;
-    width: 15%;
-    height: 20px;
-    padding: 20px 0 20px 10px;
-    background: #ffdada;
-    border-radius: 10px;
-}
 
 
 

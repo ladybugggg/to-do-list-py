@@ -1,0 +1,679 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Index CSS */
+section{
+    width: 100%;
+    background:#c4c4c4;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    height: 100vh;
+    display: flex;
+    padding: 2rem 4rem;
+}
+
+section aside:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh
+}
+
+section aside:nth-child(1) img{
+    width: 45vw;
+    height: 90vh;
+}
+
+section aside:nth-child(2){
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10vw 10vw;
+    gap: 1rem;
+}
+ 
+section aside:nth-child(2) div button{
+    border: none;
+    background: lime;
+    padding: 0.8rem 8rem;
+    color: black;
+    text-wrap: nowrap;
+    border-radius: 10px;
+
+}
+
+section aside:nth-child(2) div button a{
+text-decoration: none;
+color: black;
+}
+
+
+
+
+section aside:nth-child(2) div p{
+    font-size: 15px;
+
+} 
+
+
+
+
+
+/* Sign in CSS */
+
+
+figure{
+    width: 100%;
+    background:#c4c4c4;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 100vh;
+    display: flex;
+    padding: 2rem 4rem;
+}
+
+figure aside:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh
+}
+
+figure aside:nth-child(1) img{
+    width: 45vw;
+    height: 90vh;
+}
+
+figure aside:nth-child(2){
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10vw 8vw;
+    gap: 1rem;
+}
+
+figure aside:nth-child(2) form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+ 
+figure aside:nth-child(2) form input{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    background: transparent;
+    
+}
+
+figure aside:nth-child(2) .icon{
+    position: absolute;
+    left: 83%;
+    top: 41.7%;
+}
+
+
+
+figure aside:nth-child(2) form button{
+    border: none;
+    background: lime;
+    padding: 10px 150px;
+    color: black;
+    text-wrap: nowrap;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+figure aside:nth-child(2) div button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+figure aside:nth-child(2) div p{
+    font-size: 15px;
+    text-align: center;
+} 
+
+
+
+figure aside:nth-child(2) .social-login{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.social-login input{
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.social-login .google, .facebook, .or{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.social-login div img{
+    padding-top: 1rem;
+}
+
+
+/* Signup CSS */
+
+figcaption{
+    width: 100%;
+    background:#c4c4c4;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 100vh;
+    display: flex;
+    padding: 2rem 4rem;
+}
+
+figcaption aside:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh
+}
+
+figcaption aside:nth-child(1) img{
+    width: 45vw;
+    height: 90vh;
+}
+
+figcaption aside:nth-child(2){
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10vw 8vw;
+    gap: 1rem;
+}
+
+figcaption aside:nth-child(2) form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+ 
+figcaption aside:nth-child(2) form input{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    background: transparent;
+    
+}
+
+figcaption aside:nth-child(2) .typepassword-icon{
+    position: absolute;
+    top: 52.5%;
+    left: 85%;
+    
+}
+
+figcaption aside:nth-child(2) .retypepassword-icon{
+    position: absolute;
+    top: 60%;
+    left: 85%;
+    
+}
+
+
+figcaption aside:nth-child(2) form button{
+    border: none;
+    background: lime;
+    padding: 10px 150px;
+    color: black;
+    text-wrap: nowrap;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+figcaption aside:nth-child(2) div button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+figcaption aside:nth-child(2) div p{
+    font-size: 15px;
+    text-align: center;
+} 
+
+
+
+
+
+
+
+
+/* Welcome CSS */
+
+.welcome-wrapper{
+    /* max-width: 80vw; */
+    width: 100%;
+    background: #ffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.welcome-wrapper .welcome-half1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 90vh;
+    gap: 2rem;
+    background: #f4f4f4;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 20px;
+}
+
+.welcome-wrapper .welcome-half1 input{
+    border-radius: 20px; 
+    margin-top: 1rem; 
+    text-indent: 40px; 
+    background: #ebebeb; 
+    height: 30px; 
+    
+}
+
+.welcome-half1 .search-icon{
+    position: absolute;
+    left: 5%;
+    top: 13%;
+}
+    
+.welcome-half1 .submenu{
+    line-height: 22px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.welcome-wrapper .welcome-half2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90vh;
+    gap: 2rem;
+    background: #f4f4f4;
+    border-radius: 20px;
+    padding: 8rem 8rem;
+    text-align: center;
+
+
+}
+
+.welcome-wrapper .welcome-half2 button{
+    border: none;
+    background: lime;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.welcome-wrapper .welcome-half2 button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.welcome-half2 div h2{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.welcome-half2 div p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+/* Upcoming CSS */
+
+
+.upcoming-wrapper{
+    /* max-width: 80vw; */
+    width: 100%;
+    background: #ffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.upcoming-wrapper .upcoming-half1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 90vh;
+    gap: 2rem;
+    background: #f4f4f4;
+    padding: 1.5rem 1rem 2rem 1rem;
+    border-radius: 20px;
+}
+
+.upcoming-wrapper .upcoming-half1 input{
+    border-radius: 20px; 
+    margin-top: 1rem; 
+    text-indent: 40px; 
+    background: #ebebeb; 
+    height: 30px; 
+    
+}
+
+.upcoming-half1 .search-icon{
+    position: absolute;
+    left: 5%;
+    top: 13%;
+}
+    
+.upcoming-half1 .submenu{
+    line-height: 22px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.upcoming-wrapper .upcoming-half2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90vh;
+    gap: 0.5rem;
+    background: #ffff;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    text-align: left;
+}
+
+.upcoming-wrapper .upcoming-half2 form input{
+    width: 100%;
+
+}
+
+
+.upcoming-half2 form label{
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 5px 5px;
+
+}
+
+.upcoming-half2 div form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00000066;
+    padding: 1rem 1rem 3rem 2rem;
+    border-radius: 30px;
+    height: 39vh;
+}
+
+
+
+ .tomorrow-thisweek{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+ .tomorrow{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thisweek{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+} 
+
+
+/* Today CSS */
+
+.today-wrapper{
+    max-width: 80vw;
+    width: 100%;
+    background: #ffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem auto;
+    gap: 1rem;
+}
+
+.today-wrapper .today-half1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 92vh;
+    gap: 2rem;
+    background: #f4f4f4;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 20px;
+}
+.today-wrapper .today-half2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 92vh;
+    gap: 1rem;
+    background: #ffff;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    text-align: left;
+}
+
+.today-wrapper .today-half2 form input{
+    width: 100%;
+
+}
+
+.today-half2 form label{
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 5px 5px;
+
+}
+
+.today-half2 div form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00000066;
+    padding: 0 1rem 3rem 2rem;
+    border-radius: 30px;
+    height: 80vh;
+}
+
+
+
+/* Calender CSS */
+
+.calender-wrapper{
+    max-width: 80vw;
+    width: 100%;
+    background: #ffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem auto;
+    gap: 1rem;
+}
+
+.calender-wrapper .calender-half1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 97vh;
+    gap: 2rem;
+    background: #f4f4f4;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 20px;
+}
+.calender-wrapper .calender-half2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 92vh;
+    gap: 0.01rem;
+    background: #ffff;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    text-align: left;
+}
+
+.calender-half2 button{
+    position: absolute; 
+    top: 1%; 
+    left: 87%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 2px 5px;
+}
+
+.calender-half2 button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.calender-half2 div form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00000066;
+    padding: 0 1rem 3rem 2rem;
+    border-radius: 30px;
+    height: 85vh;
+    
+}
+
+
+.calender-half2 .dayweek-month p{
+    width: 25%;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    word-spacing: 10px;
+    font-size: 15px;
+    padding: 1px 0 1px 7px;
+    
+}
+
+.calender-half2 form h5{
+    font-weight: 800;
+    padding: 1rem 7.5rem 0 7.5rem;
+}
+
+
+.calender-half2 form div p{
+    font-size: 12px;
+    line-height: 0;
+    width: 13%;
+    text-align: end;
+    text-wrap: nowrap;
+
+}
+
+.calender-half2 form div hr{
+    width: 14%;
+}
+
+
+.calender-half2 form .database{
+    position: absolute;
+    top: 22%;
+    left: 43%;
+    width: 49%;
+    height: 20px;
+    padding: 20px 0 20px 10px;
+    background: #D1EAED;
+    border-radius: 10px;
+}
+
+.calender-half2 form .meet{
+    position: absolute;
+    top: 37.5%;
+    left: 43%;
+    width: 15%;
+    height: 20px;
+    padding: 20px 0 20px 10px;
+    background: #D1EAED;
+    border-radius: 10px;
+}
+
+.calender-half2 form .database2{
+    position: absolute;
+    top: 68%;
+    left: 43%;
+    width: 15%;
+    height: 20px;
+    padding: 20px 0 20px 10px;
+    background: #ffdada;
+    border-radius: 10px;
+}
+
+
+
+
+
+

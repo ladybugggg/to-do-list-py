@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+section{
+    width: 100%;
+    background:#c4c4c4;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+section aside:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+}
+
+section aside:nth-child(1) img{
+    width: 80%;
+    height: 85vh;
+    position: absolute;
+    top: 5%;
+    left: 24%;
+
+}
+
+section aside:nth-child(2){
+    width: 40%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10vw 10vw;
+    gap: 1rem;
+    position: absolute;
+    top: 5%;
+    left: 54%;
+}
+ 
+section aside:nth-child(2) div button{
+    border: none;
+    background: lime;
+    padding: 0.5rem 8rem;
+    color: black;
+    text-wrap: nowrap;
+    border-radius: 10px;
+
+}
+
+section aside:nth-child(2) div button a{
+text-decoration: none;
+color: black;
+}
+
+
+
+
+section aside:nth-child(2) div p{
+    font-size: 15px;
+
+} 
+
+
+
+
+
+/* Sign in CSS */
+
+
+figure{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background: #c4c4c4;
+}
+
+figure aside:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+}
+
+figure aside:nth-child(1) img{
+    width: 80%;
+    height: 85vh;
+    position: absolute;
+    top: 5%;
+    left: 24%;
+
+}
+
+figure aside:nth-child(2){
+    width: 40%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 8vw 7vw;
+    gap: 1rem;
+    position: absolute;
+    top: 5%;
+    left: 54%;
+}
+
+figure aside:nth-child(2) div button{
+    border: none;
+    background: lime;
+    padding: 0.5rem 9rem;
+    color: black;
+    text-wrap: nowrap;
+    border-radius: 10px;
+
+}
+
+figure aside:nth-child(2) div button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+figure aside:nth-child(2) div p{
+    font-size: 15px;
+
+} 
+
+
+
+
+
+
+
+
+
+
+figure aside:nth-child(2) form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form div input{
+    width: 90%;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* position: relative; */
+    background: transparent;
+    
+}
+
+
+form .icon{
+    position: absolute;
+    left: 72%;
+    top: 40.5%;
+}
+
+.social-login{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.social-login input{
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.social-login .google, .facebook, .or{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.social-login div img{
+    padding-top: 1rem;
+}
+
+figure aside div p{
+    text-align: center;
+}
+
+/* Welcome ToDoPy CSS */
+
+.welcome-wrapper{
+    max-width: 80vw;
+    width: 100%;
+    background: #ffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem auto;
+    gap: 1rem;
+}
+
+.welcome-wrapper .welcome-half1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 92vh;
+    gap: 1rem;
+    background: #f4f4f4;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 20px;
+}
+.welcome-wrapper .welcome-half2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 92vh;
+    gap: 2rem;
+    background: #f4f4f4;
+    border-radius: 20px;
+    padding: 8rem 8rem;
+    text-align: center;
+
+
+}
+
+.welcome-half1 .signout{
+    padding-top: 0.5rem;
+    line-height: 32px;
+    text-indent: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.welcome-wrapper .welcome-half2 button{
+    border: none;
+    background: lime;
+    padding: 0.5rem 5rem;
+    border-radius: 10px;
+}
+
+.welcome-half1 .search-icon{
+    position: absolute;
+    left: 3.0%;
+    top: 16%;
+}
+    
+.welcome-half1 .tasks-lists p{
+    line-height: 32px;
+    text-indent: 40px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-half1 h4{
+    line-height: 32px;
+    text-indent: 40px;
+    
+}

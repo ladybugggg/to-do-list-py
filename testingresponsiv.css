@@ -1,0 +1,961 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Index CSS */
+
+/* Mobile */
+@media (max-width:480px) {
+
+    section {
+        background-image: url(./imgs/Rectangle\ 1.png);
+        padding: 2rem 4rem;
+
+    }
+
+
+    section aside:nth-child(1){
+        display: none;
+    }
+
+
+    section aside:nth-child(2){
+        width: 100%;
+        padding: 4vw 6vw;
+    }
+
+
+    section aside:nth-child(2) div button{
+        border: none;
+        background: lime;
+        padding: 0.5rem 2rem;
+        color: black;
+        text-wrap: nowrap;
+        border-radius: 10px;
+        
+    }
+
+    section aside:nth-child(2) div p{
+        font-size: 16px; 
+        }       
+           
+}
+
+/* Extra small devices */
+@media (min-width:481px) and (max-width:767px) {
+
+       section {
+        background-image: url(./imgs/Rectangle\ 1.png);
+        padding: 2rem 4rem;
+
+    }
+
+
+    section aside:nth-child(1){
+        display: none;
+    }
+
+
+    section aside:nth-child(2){
+        width: 100%;
+        padding: 4vw 8vw;
+    }
+
+
+    section aside:nth-child(2) div button{
+        border: none;
+        background: lime;
+        padding: 1rem 4rem;
+        color: black;
+        text-wrap: nowrap;
+        border-radius: 10px;
+        
+    }
+
+    section aside:nth-child(2) div p{
+        font-size: 16px; 
+        }       
+           
+}
+
+
+/* Small tablets */
+@media (min-width:768px) and (max-width:991px) {
+
+    section{
+        width: 100%;
+        gap: 3rem;
+        height: 100vh;
+        padding: 2rem 4rem;
+    }
+    
+
+    section aside:nth-child(1){
+        width: 48%;
+        height: 90vh;
+    }
+
+    section aside:nth-child(1) img{
+        width: 45vw;
+        height: 90vh;
+    }
+    
+
+    section aside:nth-child(2){
+        width: 48%;
+        height: 90vh;
+    }
+
+
+    section aside:nth-child(2) div button{
+        border: none;
+        background: lime;
+        padding: 1rem 4rem;
+        color: black;
+        text-wrap: nowrap;
+        border-radius: 10px;
+        
+    }
+
+    section aside:nth-child(2) div p{
+        font-size: 16px; 
+        }       
+           
+}
+
+    
+/* Large tablets/laptops */
+@media (min-width:992px) and (max-width:1199px) {
+
+    section{
+        width: 100%;
+        gap: 2rem;
+        height: 100vh;
+        padding: 3rem 3rem;
+    }
+    
+
+    section aside:nth-child(1){
+        width: 50%;
+        height: 90vh;
+    }
+
+    section aside:nth-child(1) img{
+        width: 45vw;
+        height: 90vh;
+    }
+    
+
+    section aside:nth-child(2){
+        width: 50%;
+        height: 90vh;
+    }
+
+
+    section aside:nth-child(2) div button{
+        border: none;
+        background: lime;
+        padding: 1rem 6rem;
+        color: black;
+        text-wrap: nowrap;
+        border-radius: 10px;
+        
+    }
+
+    section aside:nth-child(2) div p{
+        font-size: 16px; 
+        }       
+           
+}
+
+/* Desktops */
+ @media (min-width:1200px) and (mx-width:1919px) {
+
+        section{
+        width: 100%;
+        gap: 2rem;
+        height: 100vh;
+        padding: 2rem 4rem;
+        }
+        
+    
+        section aside:nth-child(1){
+            width: 50%;
+            height: 90vh;
+        }
+    
+        section aside:nth-child(1) img{
+            width: 50vw;
+            height: 90vh;
+        }
+        
+    
+        section aside:nth-child(2){
+            width: 50%;
+            height: 90vh;
+
+        }
+    
+    
+        section aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 1rem 8rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+            
+        }
+    
+        section aside:nth-child(2) div p{
+            font-size: 16px; 
+            }       
+    
+ }
+
+
+ /* Signin CSS */
+
+     /* Mobile */
+    @media (max-width:480px) {
+
+    figure{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./imgs/Rectangle\ 1.png);
+    }
+    
+    figure aside:nth-child(1){
+        display: none;
+    }
+    
+    figure aside:nth-child(1) img{
+        width: 100%;
+        height: 10vh;
+    
+    }
+    
+    figure aside:nth-child(2){
+        width: 100%;
+        height: 90vh;
+        padding: 0 8vw;
+        justify-content: baseline;
+    }
+
+    figure aside:nth-child(2) form input{
+        position: relative;
+    }
+
+    figure aside:nth-child(2) .icon{
+        position: absolute;
+        top: 32%;
+        left: 67%;
+    }
+
+
+    figure aside:nth-child(2) div button{
+        border: none;
+        background: lime;
+        padding: 0.5rem 3rem;
+        color: black;
+        text-wrap: nowrap;
+        border-radius: 10px;
+    
+    }
+
+
+    figure aside:nth-child(2) .social-login{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    figure aside:nth-child(2) div p{
+        font-size: 15px;
+        text-align: center;
+    } 
+
+    }
+
+    
+    /* Extra small devices */
+    @media (min-width:481px) and (max-width:767px) {
+
+        figure{
+            width: 100%;
+            height: 100vh;
+            background-image: url(./imgs/Rectangle\ 1.png);
+        }
+        
+        figure aside:nth-child(1){
+            display: none;
+        }
+        
+        figure aside:nth-child(1) img{
+            width: 100%;
+            height: 10vh;
+        
+        }
+        
+        figure aside:nth-child(2){
+            width: 100%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: baseline;
+        }
+    
+        figure aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figure aside:nth-child(2) .icon{
+            position: absolute;
+            top: 32%;
+            left: 67%;
+        }
+    
+    
+        figure aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+    
+        figure aside:nth-child(2) .social-login{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+        figure aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        } 
+     
+    } 
+
+    /* Small tablets */
+    @media (min-width: 768px) and (max-width: 991px) {
+
+        figure{
+            width: 100%;
+            gap: 2rem;
+            height: 100vh;
+            padding: 2rem 4rem;
+        }
+        
+        figure aside:nth-child(1){
+            width: 48%;
+            height: 90vh;
+        }
+        
+        figure aside:nth-child(1) img{
+            width: 40vw;
+            height: 90vh;
+        
+        }
+        
+        figure aside:nth-child(2){
+            width: 48%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: center;
+        }
+    
+        figure aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figure aside:nth-child(2) .icon{
+            position: absolute;
+            top: 32%;
+            left: 81%;
+        }
+    
+    
+        figure aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+    
+        figure aside:nth-child(2) .social-login{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+        figure aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        }
+
+        
+    }
+    
+    /* Large tablets/laptops */
+    @media (min-width: 992px) and (max-width: 1199px) {
+
+        figure{
+            width: 100%;
+            gap: 1rem;
+            height: 100vh;
+            padding: 2rem 4rem;
+        }
+        
+        figure aside:nth-child(1){
+            width: 50%;
+            height: 90vh;
+        }
+        
+        figure aside:nth-child(1) img{
+            width: 40vw;
+            height: 90vh;
+        
+        }
+        
+        figure aside:nth-child(2){
+            width: 50%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: center;
+        }
+    
+        figure aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figure aside:nth-child(2) .icon{
+            position: fixed;
+            top: 32%;
+            left: 81%;
+        }
+    
+    
+        figure aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+    
+        figure aside:nth-child(2) .social-login{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+        figure aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        }
+        
+    }
+
+    /* Desktop */
+    @media (min-width:1200px) and (max-width:1919px) {
+
+        figure{
+            width: 100%;
+            gap: 1rem;
+            height: 100vh;
+            padding: 2rem 4rem;
+        }
+        
+        figure aside:nth-child(1){
+            width: 50%;
+            height: 90vh;
+        }
+        
+        figure aside:nth-child(1) img{
+            width: 40vw;
+            height: 90vh;
+        
+        }
+        
+        figure aside:nth-child(2){
+            width: 50%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: center;
+        }
+    
+        figure aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figure aside:nth-child(2) .icon{
+            position: fixed;
+            top: 32%;
+            left: 84%;
+        }
+    
+    
+        figure aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+    
+        figure aside:nth-child(2) .social-login{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+        figure aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        }
+
+        
+    }
+
+    /* Sign Up CSS */
+
+    /* Mobile */
+    @media (max-width:480px) {
+
+        figcaption{
+            width: 100%;
+            height: 100vh;
+            background-image: url(./imgs/Rectangle\ 1.png);
+        }
+        
+        figcaption aside:nth-child(1){
+            display: none;
+        }
+        
+        figcaption aside:nth-child(1) img{
+            width: 100%;
+            height: 10vh;
+        
+        }
+        
+        figcaption aside:nth-child(2){
+            width: 100%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: baseline;
+        }
+    
+        figcaption aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figcaption aside:nth-child(2) .typepassword-icon{
+            position: absolute;
+            top: 51%;
+            left: 68%;
+            
+        }
+        
+        figcaption aside:nth-child(2) .retypepassword-icon{
+            position: absolute;
+            top: 58%;
+            left: 68%;
+            
+        }
+        
+    
+        figcaption aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+        figcaption aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        } 
+
+    }
+
+    /* Extra small devices */
+    @media (min-width:481px) and (max-width:767px) {
+        figcaption{
+            width: 100%;
+            height: 100vh;
+            background-image: url(./imgs/Rectangle\ 1.png);
+        }
+        
+        figcaption aside:nth-child(1){
+            display: none;
+        }
+        
+        figcaption aside:nth-child(1) img{
+            width: 100%;
+            height: 10vh;
+        
+        }
+        
+        figcaption aside:nth-child(2){
+            width: 100%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: baseline;
+        }
+    
+        figcaption aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figcaption aside:nth-child(2) .typepassword-icon{
+            position: absolute;
+            top: 51%;
+            left: 72%;
+            
+        }
+        
+        figcaption aside:nth-child(2) .retypepassword-icon{
+            position: absolute;
+            top: 58%;
+            left: 72%;
+            
+        }
+        
+    
+        figcaption aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+        figcaption aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        } 
+    }
+
+
+    /* Small tablets */
+    @media (min-width: 768px) and (max-width: 991px) {
+
+        figcaption{
+            width: 100%;
+            gap: 2rem;
+            height: 100vh;
+            padding: 2rem 4rem;
+        }
+        
+        figcaption aside:nth-child(1){
+            width: 48%;
+            height: 90vh;
+        }
+        
+        figcaption aside:nth-child(1) img{
+            width: 40vw;
+            height: 90vh;
+        
+        }
+        
+        figcaption aside:nth-child(2){
+            width: 48%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: center;
+        }
+    
+        figcaption aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figcaption aside:nth-child(2) .typepassword-icon{
+            position: absolute;
+            top: 51%;
+            left: 81%;
+            
+        }
+        
+        figcaption aside:nth-child(2) .retypepassword-icon{
+            position: absolute;
+            top: 57%;
+            left: 81%;
+            
+        }
+        
+    
+        figcaption aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+        
+        figcaption aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        }
+
+    }
+
+
+    /* Large tablets/laptops */
+    @media (min-width:992px) and (max-width:1199px) {
+
+        figcaption{
+            width: 100%;
+            gap: 2rem;
+            height: 100vh;
+            padding: 2rem 4rem;
+        }
+        
+        figcaption aside:nth-child(1){
+            width: 48%;
+            height: 90vh;
+        }
+        
+        figcaption aside:nth-child(1) img{
+            width: 40vw;
+            height: 90vh;
+        
+        }
+        
+        figcaption aside:nth-child(2){
+            width: 48%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: center;
+        }
+    
+        figcaption aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figcaption aside:nth-child(2) .typepassword-icon{
+            position: absolute;
+            top: 52%;
+            left: 81%;
+            
+        }
+        
+        figcaption aside:nth-child(2) .retypepassword-icon{
+            position: absolute;
+            top: 58%;
+            left: 81%;
+        }
+        
+    
+        figcaption aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+        
+        figcaption aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        }
+
+    }
+
+
+    /* Desktops */
+    @media (min-width:1200px) and (max-width:1919px) {
+
+        figcaption{
+            width: 100%;
+            gap: 2rem;
+            height: 100vh;
+            padding: 2rem 4rem;
+        }
+        
+        figcaption aside:nth-child(1){
+            width: 48%;
+            height: 90vh;
+        }
+        
+        figcaption aside:nth-child(1) img{
+            width: 40vw;
+            height: 90vh;
+        
+        }
+        
+        figcaption aside:nth-child(2){
+            width: 48%;
+            height: 90vh;
+            padding: 0 8vw;
+            justify-content: center;
+        }
+    
+        figcaption aside:nth-child(2) form input{
+            position: relative;
+        }
+    
+        figcaption aside:nth-child(2) .typepassword-icon{
+            position: absolute;
+            top: 52%;
+            left: 81%;
+            
+        }
+        
+        figcaption aside:nth-child(2) .retypepassword-icon{
+            position: absolute;
+            top: 58%;
+            left: 81%;
+        }
+        
+    
+        figcaption aside:nth-child(2) div button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 3rem;
+            color: black;
+            text-wrap: nowrap;
+            border-radius: 10px;
+        
+        }
+    
+        
+        figcaption aside:nth-child(2) div p{
+            font-size: 15px;
+            text-align: center;
+        }
+
+        
+    }
+
+    /* Welcome CSS */
+
+    /* Mobile */
+    @media (max-width:480px) {
+     
+        .welcome-wrapper{
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            gap: 1rem;
+        }
+        
+        .welcome-wrapper .welcome-half1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+            gap: 1rem;
+            background: #f4f4f4;
+            /* padding: 2rem 1rem 2rem 1rem; */
+            border-radius: 20px;
+        }
+
+        .welcome-half1 .menu-heading{
+            font-size: 16px;
+        }
+
+        .welcome-half1 form input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            background: #ebebeb; 
+            height: 30px; 
+            width: 50%;
+            
+        }
+
+       
+         .welcome-half1 li div i{
+            left: 2%;
+        }
+
+        
+
+
+        .welcome-wrapper .welcome-half2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+            gap: 1rem;
+            background: #f4f4f4;
+            border-radius: 20px;
+            padding: 2rem 1rem;        
+        
+        }
+        
+        .welcome-wrapper .welcome-half2 button{
+            border: none;
+            background: lime;
+            padding: 0.5rem 1.5rem;
+            border-radius: 10px;
+            text-wrap: nowrap;
+            font-weight: 900;
+            font-size: 16px;
+        }
+        
+        .welcome-wrapper .welcome-half2 button a{
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+        
+        
+        .welcome-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .welcome-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        
+        
+        
+        
+    }
+
+
+
+
+
+
+
+        
+    

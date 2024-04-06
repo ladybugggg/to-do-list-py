@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender | ToDo Py</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+
+</head>
+<body>
+
+<section class="calender-wrapper">
+    <div class="calender-half1">
+
+        <nav
+            class="navbar navbar-expand-xl|lg|md|sm navbar-light"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#" style="color: black; font-weight: 900; font-size: 25px; text-decoration: solid;">Menu</a>
+                <button
+                    class="navbar-toggler d-lg-toggle"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse toggle" id="collapsibleNavId">
+                    
+
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 menu-container">
+
+                        <li class="nav-item dropdown">
+                            <form class="d-flex my-2 my-lg-0">
+
+                              <i class="fa fa-search" aria-hidden="true" style="position: absolute; left: 7%; top:50%;"></i>  
+                            <input
+                                class="form-control me-sm-2"
+                                type="text"
+                                placeholder="Search . . ." style="border-radius: 20px; margin-top: 1rem; text-indent: 40px; background: #ebebeb; height: 30px;">
+                                
+                        </form>
+                    </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown" style="font-weight: 700; color: black;text-decoration: solid;"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >Tasks</a>
+                                
+                            <div
+                                class="dropdown-menu show submenu"
+                                aria-labelledby="dropdownId" style="background: transparent; border: none;"
+                            >
+                                <i class="fa fa-forward" aria-hidden="true" style="position: absolute; top:33%;left: 10%;"></i>
+                                <a class="dropdown-item" href="./upcoming.html" style="word-spacing: 70px; text-indent: 30px;">Upcoming <span style="background: #ebebeb; padding: 1px 4px; border-radius: 10px;">15+</span></a>
+
+
+                                <i class="fa fa-list" aria-hidden="true" style="position: absolute; top:50%; left: 10%;"></i>
+                                <a class="dropdown-item" href="./today.html" style="word-spacing: 95px; text-indent: 30px;">Today <span style="background: #ebebeb;padding: 0.1px 8px; border-radius: 10px;">8</span></a>
+
+                                <i class="fa fa-calendar" aria-hidden="true" style="position: absolute; top:66.5%; left: 10%;"></i>
+                                <a class="dropdown-item" href="./calender.html" style="text-indent: 30px;">Calender</a>
+
+                                <i class="fa fa-sticky-note" aria-hidden="true" style="position: absolute; top:84%; left: 10%;"></i>
+                                <a class="dropdown-item" href="#" style="text-indent: 30px;">Sticky Wall</a>
+
+                                
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-none" style="font-weight: 700; color: black; text-decoration: solid;"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >Lists</a>
+                                
+                            <div
+                                class="dropdown-menu show submenu"
+                                aria-labelledby="dropdownId" style="background: transparent; border: none;"
+                            >
+
+                                <i class="fa fa-circle" aria-hidden="true" style="position: absolute; top: 32.5%; left: 10%; color: red;"></i>
+                                <a class="dropdown-item" href="#" style="text-indent: 30px;"
+                                    >Work</a
+                                >
+
+                                <i class="fa fa-circle" aria-hidden="true" style="position: absolute; top: 49.5%; left: 10%; color: lime;"></i>
+                                <a class="dropdown-item" href="#" style="text-indent: 30px;"
+                                    >Personal</a
+                                >
+
+                                <i class="fa fa-circle" aria-hidden="true" style="position: absolute; top: 66.5%; left: 10%; color: blue;"></i>
+                                <a class="dropdown-item" href="#" style="text-indent: 30px;"
+                                    >Study</a
+                                >
+
+                                <i class="fa fa-plus-circle" aria-hidden="true" style="position: absolute; top: 83%; left: 10%;"></i>
+                                <a class="dropdown-item" href="#" style="text-indent: 30px;"
+                                    >Add new list</a
+                                >
+                            </div>
+                        </li>
+
+
+                        <div class="settings-signout">
+                            <i class="fa fa-cog" aria-hidden="true" style="position: absolute; top: 86%; left: 1%;"></i>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-none"
+                                    href="#" style="text-indent: 10px;"
+                                    id="dropdownId"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >Settings</a>
+                            </li>
+                            
+                            <i class="fa fa-sign-out" aria-hidden="true" style="position: absolute; top: 93.5%; left: 1%;"></i>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-none"
+                                    href="#" style="text-indent: 10px;"
+                                    id="dropdownId"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >Signout</a>
+                            </li>
+                        </div>
+                        
+                        
+                    </ul>
+
+                    
+                                       
+                </div>
+
+
+                
+
+            </div>
+        </nav>
+        
+        
+    </div>
+
+
+    <div class="calender-half2">
+
+        <div class="dayweek-month">
+            <h4 style="line-height: 20px;">17th October 2024</h4>
+            <p><span style="background-color: #dfdfdf; border-radius: 5px; padding: 2px 5px;">Day</span> <span style="background-color: white; border-radius: 5px; padding: 2px 5px;">Week</span> <span style="background-color: whitesmoke; border-radius: 5px; padding: 2px 5px;">Month</span></p>
+            <button><a href="./upcoming.html">Add Event</a></button>
+        </div>
+
+        
+        <div>
+
+            <form action="">
+                <fieldset>
+
+                    <h5> Tuesday </h5>
+
+                    <div>
+                        <hr>
+                        <p>9:00</p>
+                        <p>AM</p> <hr>
+                    </div>
+            
+                    <div>
+                        <p>10:00</p>
+                        <p>AM</p> <hr>
+                    </div>
+            
+                    <div>
+                        <p>11:00</p>
+                        <p>AM</p> <hr>
+                    </div>
+            
+                    <div>
+                        <p>12:00</p>
+                        <p>PM</p> <hr>
+                    </div>
+            
+                    <div>
+                        <p>1:00</p>
+                        <p>PM</p> <hr>
+                    </div>
+            
+                    <div>
+                        <p>2:00</p>
+                        <p>PM</p> <hr>
+                    </div>
+            
+                    <div>
+                        <p>3:00</p>
+                        <p>PM</p> <hr>
+                    </div>
+            
+                    <div>
+                        <p>4:00</p>
+                        <p>PM</p> <hr>
+                    </div>
+            
+                    <div>
+                        <p>5:00</p>
+                        <p>PM</p> <hr>
+                    </div>
+
+                    <div class="database">
+                        <p>Database for company</p>
+                    </div>
+            
+                    <div class="meet">
+                        <p>Meet work team</p>
+                    </div>
+
+                    <div class="database2">
+                        <p>Database for company</p>
+                    </div>
+
+                    <img src="./imgs/Line 19.png" alt="" style="width: 50%; position: absolute; top: 26%; left: 41%;">
+
+            
+            
+                        
+            </fieldset>
+
+            </form>
+        </div>
+
+
+        
+
+
+       
+
+           
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</section>
+
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -13,7 +13,10 @@
 
     section {
         background-image: url(./imgs/Rectangle\ 1.png);
-        padding: 2rem 4rem;
+        background-position: center;
+        background-size: contain;
+        /* padding: 2rem 4rem; */
+        height: 100vh;
 
     }
 
@@ -25,14 +28,15 @@
 
     section aside:nth-child(2){
         width: 100%;
-        padding: 4vw 6vw;
+        /* padding: 2rem 2rem; */
+        height: 90vh;
     }
 
 
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 3rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -41,6 +45,13 @@
 
     section aside:nth-child(2) div p{
         font-size: 16px; 
+        text-align: center;
+        }       
+           
+    section aside:nth-child(2) div h2{
+        font-size: 36px; 
+        font-weight: 800;
+        text-align: center;
         }       
            
 }

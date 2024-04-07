@@ -250,17 +250,26 @@ figcaption aside:nth-child(2) form input{
     
 }
 
-figcaption aside:nth-child(2) .typepassword-icon{
+figcaption aside:nth-child(2) .signup-typepasswordiv{
+    position: relative;
+}
+
+figcaption aside:nth-child(2) .signup-typepasswordicon{
     position: absolute;
-    top: 52.5%;
-    left: 85%;
+    top: 25%;
+    left: 92%;
     
 }
 
-figcaption aside:nth-child(2) .retypepassword-icon{
+figcaption aside:nth-child(2) .signup-retypepasswordiv{
+    position: relative;
+}
+
+
+figcaption aside:nth-child(2) .signup-retypepasswordicon{
     position: absolute;
-    top: 60%;
-    left: 85%;
+    top: 25%;
+    left: 92%;
     
 }
 

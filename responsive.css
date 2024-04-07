@@ -47,7 +47,7 @@
 
     section aside:nth-child(2) div p{
         font-size: 16px; 
-        text-align: center;
+        text-align: left;
         }       
            
     section aside:nth-child(2) div h2{
@@ -96,8 +96,16 @@
     }
 
     section aside:nth-child(2) div p{
-        font-size: 16px; 
+        font-size: 16px;
+        text-align: left; 
+        } 
+        
+    section aside:nth-child(2) div h2{
+        font-size: 48px; 
+        font-weight: 800;
+        text-align: center;
         }       
+        
            
 }
 
@@ -142,7 +150,14 @@
     }
 
     section aside:nth-child(2) div p{
-        font-size: 16px; 
+        font-size: 16px;
+        text-align: left; 
+        } 
+        
+    section aside:nth-child(2) div h2{
+        font-size: 48px; 
+        font-weight: 800;
+        text-align: center;
         }       
            
 }
@@ -188,7 +203,14 @@
     }
 
     section aside:nth-child(2) div p{
-        font-size: 16px; 
+        font-size: 16px;
+        text-align: left; 
+        } 
+        
+    section aside:nth-child(2) div h2{
+        font-size: 48px; 
+        font-weight: 800;
+        text-align: center;
         }       
            
 }
@@ -255,10 +277,16 @@
     
     
     section aside:nth-child(2) div p{
-        font-size: 15px;
+        font-size: 16px;
+        text-align: left; 
+        } 
+        
+    section aside:nth-child(2) div h2{
+        font-size: 48px; 
+        font-weight: 800;
+        text-align: center;
+        }       
     
-    } 
-
 }
     
 
@@ -312,7 +340,7 @@
     figure aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 0.5rem 3rem;
+        padding: 1rem 3rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -384,7 +412,7 @@
         figure aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 1rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -452,7 +480,7 @@
         figure aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -521,7 +549,7 @@
         figure aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -589,7 +617,7 @@
         figure aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -673,7 +701,7 @@
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 1rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -747,7 +775,7 @@
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 1rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -820,7 +848,7 @@
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -895,7 +923,7 @@
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -970,7 +998,7 @@
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -1644,9 +1672,191 @@
             .calender-half2 form .tuesday{
                 font-weight: 800;
                 padding: 1rem 2rem 1rem 2rem;
-            }
+            } 
+        
+    }
+
+    /* Small tablets */
+    @media (min-width:768px) and (max-width:991px) {
+            .calender-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: row;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .calender-wrapper .calender-half1{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 80vh;
+            gap: 2rem;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+
+        .calender-wrapper .calender-half2{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 1rem 2rem;
+            text-align: left;
+        }
+
+        .calender-half2 div form{
+            height: 70vh;
+        }
+
+
+        .calender-half2 form img{
+            display: none;
+        
+        }
+
+        .calender-half2 button{
+            position: absolute; 
+            top: 1%; 
+            left: 88%;
+            text-wrap: wrap;
+            padding: 6px 6px;
+        }
+        
+
+        .calender-half2 form .database-paragraph{
+            width: 65%;
             
+        }
+
+        .calender-half2 form .meet-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 form .database2-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 .dayweek-month p{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 0.5rem;
+            width: 65%;
+            background-color: #c4c4c4;
+            border-radius: 10px;
+            word-spacing: 5px;
+            font-size: 15px;
+        }
+
+
+        .calender-half2 div form{
+            padding: 1rem 1rem 3rem 2rem;
+        }
+
+        .calender-half2 form .tuesday{
+            font-weight: 800;
+            padding: 1rem 2rem 1rem 2rem;
+        } 
+    }
+
+
+    /* Large tablets/laptops */
+    @media (min-width:992px) and (max-width:1199px) {
+
+        .calender-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: row;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .calender-wrapper .calender-half1{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 80vh;
+            gap: 2rem;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+
+        .calender-wrapper .calender-half2{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 1rem 2rem;
+            text-align: left;
+        }
+
+        .calender-half2 div form{
+            height: 70vh;
+        }
+
+
+        .calender-half2 form img{
+            display: none;
+        
+        }
+
+        .calender-half2 button{
+            position: absolute; 
+            top: 1%; 
+            left: 88%;
+            text-wrap: wrap;
+            padding: 6px 6px;
+        }
+        
+
+        .calender-half2 form .database-paragraph{
+            width: 65%;
             
+        }
+
+        .calender-half2 form .meet-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 form .database2-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 .dayweek-month p{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 0.5rem;
+            width: 65%;
+            background-color: #c4c4c4;
+            border-radius: 10px;
+            word-spacing: 5px;
+            font-size: 15px;
+        }
+
+
+        .calender-half2 div form{
+            padding: 1rem 1rem 3rem 2rem;
+        }
+
+        .calender-half2 form .tuesday{
+            font-weight: 800;
+            padding: 1rem 2rem 1rem 2rem;
+        } 
+    }
 
         
         

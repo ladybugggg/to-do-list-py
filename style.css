@@ -58,17 +58,21 @@ section aside:nth-child(2) div button{
 }
 
 section aside:nth-child(2) div button a{
-text-decoration: none;
-color: black;
+    text-decoration: none;
+    color: black;
 }
 
 
-
-
 section aside:nth-child(2) div p{
-    font-size: 15px;
-
-} 
+    font-size: 16px;
+    text-align: left; 
+    } 
+    
+section aside:nth-child(2) div h2{
+    font-size: 48px; 
+    font-weight: 800;
+    text-align: center;
+    }       
 
 
 
@@ -148,7 +152,7 @@ figure aside:nth-child(2) .signin-passwordicon{
 figure aside:nth-child(2) form button{
     border: none;
     background: lime;
-    padding: 10px 150px;
+    padding: 15px 150px;
     color: black;
     text-wrap: nowrap;
     border-radius: 10px;
@@ -278,7 +282,7 @@ figcaption aside:nth-child(2) .signup-retypepasswordicon{
 figcaption aside:nth-child(2) form button{
     border: none;
     background: lime;
-    padding: 10px 150px;
+    padding: 15px 150px;
     color: black;
     text-wrap: nowrap;
     border-radius: 10px;

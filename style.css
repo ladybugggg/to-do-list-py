@@ -463,6 +463,141 @@ figcaption aside:nth-child(2) div p{
     text-align: left;
 }
 
+.tomorrow-thisweek{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+ .tomorrow{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thisweek{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-half2 form .upcoming-todaytaskdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingtoday-taskicon{
+    position: absolute; 
+    top: 22%; 
+    left: 32%;
+}
+.upcoming-half2 form .upcomingtoday-databasediv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingtoday-databaseicon{
+    position: absolute; 
+    top: 24%; 
+    left: 1%;
+}
+
+.upcoming-half2 form .upcomingtoday-websitediv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingtoday-websiteicon{
+    position: absolute; 
+    top: 24%; 
+    left: 1%;
+}
+
+.upcoming-half2 form .upcomingtoday-meetdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingtoday-meeticon{
+    position: absolute; 
+    top: 38%; 
+    left: 32%;
+}
+
+
+.upcoming-half2 form .upcomingtomorrow-taskdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingtomorrow-taskicon{
+    position: absolute;
+    top: 25%; 
+    left: 2%;
+}
+.upcoming-half2 form .upcomingtomorrow-workdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingtomorrow-workicon{
+    position: absolute;
+    top: 35%; 
+    left: 2%;
+}
+
+.upcoming-half2 form .upcomingtomorrow-jobdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingtomorrow-jobicon{
+    position: absolute;
+    top: 20%; 
+    left: 2%;
+}
+
+.upcoming-half2 form .upcomingthisweek-taskdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingthisweek-taskicon{
+    position: absolute;
+    top: 20%; 
+    left: 2%;
+}
+
+.upcoming-half2 form .upcomingthisweek-researchdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingthisweek-researchicon{
+    position: absolute;
+    top: 20%; 
+    left: 2%;
+}
+
+.upcoming-half2 form .upcomingthisweek-consultdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingthisweek-consulticon{
+    position: absolute;
+    top: 20%; 
+    left: 2%;
+}
+
+.upcoming-half2 form .upcomingthisweek-printdiv{
+    position: relative;
+}
+
+.upcoming-half2 form .upcomingthisweek-printicon{
+    position: absolute;
+    top: 20%; 
+    left: 2%;
+}
+
+
+
+
+
+
+
 .upcoming-wrapper .upcoming-half2 form input{
     width: 100%;
 
@@ -482,30 +617,12 @@ figcaption aside:nth-child(2) div p{
     border: 1px solid #00000066;
     padding: 1rem 1rem 3rem 2rem;
     border-radius: 30px;
-    height: 39vh;
+    height: fit-content;
 }
 
 
 
- .tomorrow-thisweek{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    padding-top: 1rem;
-}
-
- .tomorrow{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.thisweek{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-} 
+  
 
 
 /* Today CSS */

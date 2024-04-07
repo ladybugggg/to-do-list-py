@@ -1417,12 +1417,14 @@
     /* Mobile */
     @media (max-width:480px) {
         .upcoming-wrapper{
+            /* max-width: 80vw; */
             width: 100%;
             background: #ffff;
             height: 100vh;
             display: flex;
             flex-direction: column;
-            margin: 0 auto;
+            margin: 0 0;
+            padding: 1rem 1rem;
             gap: 1rem;
         }
         
@@ -1431,58 +1433,98 @@
             flex-direction: column;
             width: 100%;
             height: fit-content;
-            gap: 1rem;
+            gap: 2rem;
             background: #f4f4f4;
-            /* padding: 2rem 1rem 2rem 1rem; */
+            padding: 1.5rem 1rem 2rem 1rem;
             border-radius: 20px;
         }
-
-        .upcoming-half1 .menu-heading{
-            font-size: 16px;
-        }
-
-        .upcoming-half1 form input{
+        
+        .upcoming-wrapper .upcoming-half1 input{
             border-radius: 20px; 
             margin-top: 1rem; 
+            text-indent: 40px; 
             background: #ebebeb; 
             height: 30px; 
-            width: 60%;
             
         }
-
-    
+        
+        .upcoming-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        
+        
         .upcoming-wrapper .upcoming-half2{
             display: flex;
             flex-direction: column;
-            width: 70%;
-            height: 90vh;
-            gap: 0.5rem;
+            width: 100%;
+            height: 100vh;
+            gap: 1rem;
             background: #ffff;
             border-radius: 20px;
-            padding: 0.5rem 2rem;
+            padding: 1rem 0rem;
             text-align: left;
         }
+
+
+        .upcoming-half2 form .upcoming-todaytaskdiv{
+            position: relative;
+        }
+        
+        .upcoming-half2 form .upcomingtoday-taskicon{
+            position: absolute; 
+            top: 51.5%; 
+            left: 16%;
+        }
+
+        .upcoming-half2 form .upcomingtoday-databasediv{
+            position: relative;
+        }
+        
+        .upcoming-half2 form .upcomingtoday-databaseicon{
+            position: absolute; 
+            top: 18%; 
+            left: 1%;
+        }
+
+        .upcoming-half2 form .upcomingtoday-meetdiv{
+            /* position: relative; */
+        }
+        
+        .upcoming-half2 form .upcomingtoday-meeticon{
+            position: fixed; 
+            top: 70%; 
+            left: 15%;
+        }
+        
+        
         
 
-        .tomorrow-thisweek{
+
+        .upcoming-half2 .tomorrow-thisweek{
             width: 100%;
             display: flex;
-            flex-direction: row;
-            gap: 1rem;
+            flex-direction: column;
+            gap: 2rem;
             padding-top: 1rem;
+            height: fit-content;
         }
         
-         .tomorrow{
-            width: 50%;
+        .upcoming-half2 .tomorrow{
+            width: 100%;
             display: flex;
             flex-direction: column;
+            height: fit-content;
         }
         
-        .thisweek{
-            width: 50%;
+        .upcoming-half2 .thisweek{
+            width: 100%;
             display: flex;
+            height: fit-content;
             flex-direction: column;
-        } 
+        }
         
         
     }

@@ -131,10 +131,15 @@ figure aside:nth-child(2) form input{
     
 }
 
-figure aside:nth-child(2) .icon{
+figure aside:nth-child(2) .signin-passwordiv{
+    position: relative;
+
+}
+
+figure aside:nth-child(2) .signin-passwordicon{
     position: absolute;
-    left: 83%;
-    top: 41.7%;
+    left: 92%;
+    top: 25%;
 }
 
 

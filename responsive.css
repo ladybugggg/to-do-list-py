@@ -1489,6 +1489,266 @@
 
 
 
+    /* Today CSS */
+    /* Mobile */
+    @media (max-width:480px) {
+        .today-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .today-wrapper .today-half1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+            gap: 2rem;
+            background: #f4f4f4;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .today-wrapper .today-half1 input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            text-indent: 40px; 
+            background: #ebebeb; 
+            height: 40px;
+            width: 100%; 
+            
+        }
+        
+        .today-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .today-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .today-wrapper .today-half2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 0.5rem 2rem;
+            text-align: left;
+        }  
+        
+    }
+
+
+    /* Extra small devices */
+    @media (min-width:481px) and (max-width:767px) {
+            .today-wrapper{
+                /* max-width: 80vw; */
+                width: 100%;
+                background: #ffff;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                margin: 0 0;
+                padding: 1rem 1rem;
+                gap: 1rem;
+            }
+            
+            .today-wrapper .today-half1{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: fit-content;
+                gap: 2rem;
+                background: #f4f4f4;
+                padding: 1.5rem 1rem 2rem 1rem;
+                border-radius: 20px;
+            }
+            
+            .today-wrapper .today-half1 input{
+                border-radius: 20px; 
+                margin-top: 1rem; 
+                text-indent: 40px; 
+                background: #ebebeb; 
+                height: 40px; 
+                width: 100%;
+                
+            }
+            
+            .today-half1 .search-icon{
+                position: absolute;
+                left: 5%;
+                top: 13%;
+            }
+                
+            .today-half1 .submenu{
+                line-height: 22px;
+                font-size: 16px;
+                color: black;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .today-wrapper .today-half2{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 70vh;
+                gap: 1rem;
+                background: #ffff;
+                border-radius: 20px;
+                padding: 0.5rem 2rem;
+                text-align: left;
+            }
+       
+        
+    }
+
+
+    /* Small tablets */
+    @media (min-width:768px) and (max-width:991px) {
+        .today-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .today-wrapper .today-half1{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 85vh;
+            gap: 2rem;
+            background: #f4f4f4;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .today-wrapper .today-half1 input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            text-indent: 40px; 
+            background: #ebebeb; 
+            height: 40px;
+            width: 100%; 
+            
+        }
+        
+        .today-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .today-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .today-wrapper .today-half2{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 0.5rem 2rem;
+            text-align: left;
+        }  
+
+        
+    }
+
+    /* Large tablets/laptops */
+    @media (min-width:992px) and (max-width:1199px) {
+        .today-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .today-wrapper .today-half1{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 85vh;
+            gap: 2rem;
+            background: #f4f4f4;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .today-wrapper .today-half1 input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            text-indent: 40px; 
+            background: #ebebeb; 
+            height: 40px;
+            width: 100%; 
+            
+        }
+        
+        .today-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .today-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .today-wrapper .today-half2{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 0.5rem 2rem;
+            text-align: left;
+        }  
+
+        
+    }
+
+
+
 
     /* Calender CSS */
     /* Mobile */

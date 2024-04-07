@@ -559,13 +559,25 @@ figcaption aside:nth-child(2) div p{
     display: flex;
     flex-direction: column;
     width: 70%;
-    height: 92vh;
+    height: 95vh;
     gap: 1rem;
     background: #ffff;
     border-radius: 20px;
     padding: 0.5rem 2rem;
     text-align: left;
 }
+
+.today-half2 .today-icondiv{
+    position: relative;
+}
+
+.today-half2 .today-icon{
+    position: absolute; 
+    top: 8.6%; 
+    left: 9.2%;
+}
+
+
 
 .today-wrapper .today-half2 form input{
     width: 100%;
@@ -576,6 +588,7 @@ figcaption aside:nth-child(2) div p{
     border-bottom: 1px solid grey;
     width: 100%;
     padding: 5px 5px;
+    /* text-wrap: nowrap; */
 
 }
 

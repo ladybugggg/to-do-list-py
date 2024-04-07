@@ -12,8 +12,12 @@
 @media (max-width:480px) {
 
     section {
-        background-image: url(./imgs/Rectangle\ 1.png);
-        padding: 2rem 4rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+        margin: 0 0;
+        height: 100vh;
 
     }
 
@@ -25,14 +29,16 @@
 
     section aside:nth-child(2){
         width: 100%;
-        padding: 4vw 6vw;
+        /* padding: 2rem 2rem; */
+        height: 100vh;
+        border-radius: 0;
     }
 
 
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 0.5rem 2rem;
+        padding: 1rem 8rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -41,6 +47,13 @@
 
     section aside:nth-child(2) div p{
         font-size: 16px; 
+        text-align: left;
+        }       
+           
+    section aside:nth-child(2) div h2{
+        font-size: 36px; 
+        font-weight: 800;
+        text-align: center;
         }       
            
 }
@@ -48,9 +61,13 @@
 /* Extra small devices */
 @media (min-width:481px) and (max-width:767px) {
 
-       section {
-        background-image: url(./imgs/Rectangle\ 1.png);
-        padding: 2rem 4rem;
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+        margin: 0 0;
+        height: 100vh;
 
     }
 
@@ -62,14 +79,16 @@
 
     section aside:nth-child(2){
         width: 100%;
-        padding: 4vw 8vw;
+        /* padding: 2rem 2rem; */
+        height: 100vh;
+        border-radius: 0;
     }
 
 
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 4rem;
+        padding: 1rem 8rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -77,8 +96,16 @@
     }
 
     section aside:nth-child(2) div p{
-        font-size: 16px; 
+        font-size: 16px;
+        text-align: left; 
+        } 
+        
+    section aside:nth-child(2) div h2{
+        font-size: 48px; 
+        font-weight: 800;
+        text-align: center;
         }       
+        
            
 }
 
@@ -88,33 +115,34 @@
 
     section{
         width: 100%;
-        gap: 3rem;
+        gap: 1rem;
         height: 100vh;
-        padding: 2rem 4rem;
+        padding: 1rem 1rem;
+        margin: 0 0;
     }
     
 
     section aside:nth-child(1){
-        width: 48%;
-        height: 90vh;
+        width: 50%;
+        height: 95vh;
     }
 
     section aside:nth-child(1) img{
-        width: 45vw;
-        height: 90vh;
+        width: 47vw;
+        height: 95vh;
     }
     
 
     section aside:nth-child(2){
-        width: 48%;
-        height: 90vh;
+        width: 50%;
+        height: 95vh;
     }
 
 
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 4rem;
+        padding: 1rem 8rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -122,7 +150,14 @@
     }
 
     section aside:nth-child(2) div p{
-        font-size: 16px; 
+        font-size: 16px;
+        text-align: left; 
+        } 
+        
+    section aside:nth-child(2) div h2{
+        font-size: 48px; 
+        font-weight: 800;
+        text-align: center;
         }       
            
 }
@@ -133,33 +168,34 @@
 
     section{
         width: 100%;
-        gap: 2rem;
+        gap: 1rem;
         height: 100vh;
-        padding: 3rem 3rem;
+        padding: 1rem 1rem;
+        margin: 0 0;
     }
     
 
     section aside:nth-child(1){
         width: 50%;
-        height: 90vh;
+        height: 95vh;
     }
 
     section aside:nth-child(1) img{
-        width: 45vw;
-        height: 90vh;
+        width: 47vw;
+        height: 95vh;
     }
     
 
     section aside:nth-child(2){
         width: 50%;
-        height: 90vh;
+        height: 95vh;
     }
 
 
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 6rem;
+        padding: 1rem 8rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -167,7 +203,14 @@
     }
 
     section aside:nth-child(2) div p{
-        font-size: 16px; 
+        font-size: 16px;
+        text-align: left; 
+        } 
+        
+    section aside:nth-child(2) div h2{
+        font-size: 48px; 
+        font-weight: 800;
+        text-align: center;
         }       
            
 }
@@ -175,48 +218,77 @@
 /* Desktops */
  @media (min-width:1200px) and (mx-width:1919px) {
 
-        section{
+    section{
         width: 100%;
-        gap: 2rem;
+        background:#c4c4c4;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
         height: 100vh;
-        padding: 2rem 4rem;
-        }
+        display: flex;
+        padding: 1rem 1rem;
+        margin: 0 0;
+    }
+    
+    section aside:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 95vh
+    }
+    
+    section aside:nth-child(1) img{
+        width: 47vw;
+        height: 95vh;
+    }
+    
+    section aside:nth-child(2){
+        width: 50%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 10vw 10vw;
+        gap: 1rem;
+    }
+     
+    section aside:nth-child(2) div button{
+        border: none;
+        background: lime;
+        padding: 1rem 8rem;
+        color: black;
+        text-wrap: nowrap;
+        border-radius: 10px;
+    
+    }
+    
+    section aside:nth-child(2) div button a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    
+    
+    
+    section aside:nth-child(2) div p{
+        font-size: 16px;
+        text-align: left; 
+        } 
         
+    section aside:nth-child(2) div h2{
+        font-size: 48px; 
+        font-weight: 800;
+        text-align: center;
+        }       
     
-        section aside:nth-child(1){
-            width: 50%;
-            height: 90vh;
-        }
+}
     
-        section aside:nth-child(1) img{
-            width: 50vw;
-            height: 90vh;
-        }
-        
-    
-        section aside:nth-child(2){
-            width: 50%;
-            height: 90vh;
-
-        }
-    
-    
-        section aside:nth-child(2) div button{
-            border: none;
-            background: lime;
-            padding: 1rem 8rem;
-            color: black;
-            text-wrap: nowrap;
-            border-radius: 10px;
-            
-        }
-    
-        section aside:nth-child(2) div p{
-            font-size: 16px; 
-            }       
-    
- }
-
 
  /* Signin CSS */
 
@@ -225,8 +297,11 @@
 
     figure{
         width: 100%;
-        height: 100vh;
-        background-image: url(./imgs/Rectangle\ 1.png);
+        height: 80vh;
+        justify-content: start;
+        align-items: start;
+        margin: 0 auto;
+        padding: 0 0;
     }
     
     figure aside:nth-child(1){
@@ -241,26 +316,31 @@
     
     figure aside:nth-child(2){
         width: 100%;
-        height: 90vh;
+        height: 80vh;
         padding: 0 8vw;
-        justify-content: baseline;
+        border-radius: 0;
     }
 
     figure aside:nth-child(2) form input{
         position: relative;
     }
 
-    figure aside:nth-child(2) .icon{
-        position: absolute;
-        top: 32%;
-        left: 67%;
+    figure aside:nth-child(2) .signin-passwordiv{
+        position: relative;
+    
     }
-
+    
+    figure aside:nth-child(2) .signin-passwordicon{
+        position: absolute;
+        left: 88%;
+        top: 25%;
+    }
+    
 
     figure aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 0.5rem 3rem;
+        padding: 1rem 3rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -287,8 +367,12 @@
 
         figure{
             width: 100%;
-            height: 100vh;
-            background-image: url(./imgs/Rectangle\ 1.png);
+            height: 80vh;
+            justify-content: start;
+            align-items: start;
+            margin: 0 auto;
+            padding: 0 0;
+            /* background-image: url(./imgs/Rectangle\ 1.png); */
         }
         
         figure aside:nth-child(1){
@@ -303,26 +387,32 @@
         
         figure aside:nth-child(2){
             width: 100%;
-            height: 90vh;
+            height: 80vh;
             padding: 0 8vw;
-            justify-content: baseline;
+            border-radius: 0;
         }
+    
     
         figure aside:nth-child(2) form input{
             position: relative;
         }
     
-        figure aside:nth-child(2) .icon{
-            position: absolute;
-            top: 32%;
-            left: 67%;
+        figure aside:nth-child(2) .signin-passwordiv{
+            position: relative;
+        
         }
-    
+        
+        figure aside:nth-child(2) .signin-passwordicon{
+            position: absolute;
+            left: 90%;
+            top: 25%;
+        }
+        
     
         figure aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 1rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -375,17 +465,22 @@
             position: relative;
         }
     
-        figure aside:nth-child(2) .icon{
-            position: absolute;
-            top: 32%;
-            left: 81%;
+        figure aside:nth-child(2) .signin-passwordiv{
+            position: relative;
+        
         }
-    
+        
+        figure aside:nth-child(2) .signin-passwordicon{
+            position: absolute;
+            left: 89%;
+            top: 25%;
+        }
+        
     
         figure aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -439,17 +534,22 @@
             position: relative;
         }
     
-        figure aside:nth-child(2) .icon{
-            position: fixed;
-            top: 32%;
-            left: 81%;
+        figure aside:nth-child(2) .signin-passwordiv{
+            position: relative;
+        
         }
-    
+        
+        figure aside:nth-child(2) .signin-passwordicon{
+            position: absolute;
+            left: 92%;
+            top: 25%;
+        }
+            
     
         figure aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -471,7 +571,7 @@
     }
 
     /* Desktop */
-    @media (min-width:1200px) and (max-width:1919px) {
+    /* @media (min-width:1200px) and (max-width:1919px) {
 
         figure{
             width: 100%;
@@ -502,17 +602,22 @@
             position: relative;
         }
     
-        figure aside:nth-child(2) .icon{
-            position: fixed;
-            top: 32%;
-            left: 84%;
+        figure aside:nth-child(2) .signin-passwordiv{
+        position: relative;
+
+}
+
+        figure aside:nth-child(2) .signin-passwordicon{
+        position: absolute;
+        left: 92%;
+        top: 25%;
         }
-    
+
     
         figure aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -532,7 +637,7 @@
         }
 
         
-    }
+    } */
 
     /* Sign Up CSS */
 
@@ -541,8 +646,11 @@
 
         figcaption{
             width: 100%;
-            height: 100vh;
-            background-image: url(./imgs/Rectangle\ 1.png);
+            height: 80vh;
+            justify-content: start;
+            align-items: start;
+            margin: 0 auto;
+            padding: 0 0;
         }
         
         figcaption aside:nth-child(1){
@@ -557,26 +665,35 @@
         
         figcaption aside:nth-child(2){
             width: 100%;
-            height: 90vh;
+            height: 80vh;
             padding: 0 8vw;
-            justify-content: baseline;
+            border-radius: 0;
         }
     
         figcaption aside:nth-child(2) form input{
             position: relative;
         }
     
-        figcaption aside:nth-child(2) .typepassword-icon{
+        figcaption aside:nth-child(2) .signup-typepasswordiv{
+            position: relative;
+        }
+        
+        figcaption aside:nth-child(2) .signup-typepasswordicon{
             position: absolute;
-            top: 51%;
-            left: 68%;
+            top: 25%;
+            left: 88%;
             
         }
         
-        figcaption aside:nth-child(2) .retypepassword-icon{
+        figcaption aside:nth-child(2) .signup-retypepasswordiv{
+            position: relative;
+        }
+        
+        
+        figcaption aside:nth-child(2) .signup-retypepasswordicon{
             position: absolute;
-            top: 58%;
-            left: 68%;
+            top: 25%;
+            left: 88%;
             
         }
         
@@ -584,7 +701,7 @@
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 1rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -602,8 +719,11 @@
     @media (min-width:481px) and (max-width:767px) {
         figcaption{
             width: 100%;
-            height: 100vh;
-            background-image: url(./imgs/Rectangle\ 1.png);
+            height: 80vh;
+            justify-content: start;
+            align-items: start;
+            margin: 0 auto;
+            padding: 0 0;
         }
         
         figcaption aside:nth-child(1){
@@ -618,26 +738,36 @@
         
         figcaption aside:nth-child(2){
             width: 100%;
-            height: 90vh;
+            height: 80vh;
             padding: 0 8vw;
-            justify-content: baseline;
+            border-radius: 0;
         }
+    
     
         figcaption aside:nth-child(2) form input{
             position: relative;
         }
     
-        figcaption aside:nth-child(2) .typepassword-icon{
+        figcaption aside:nth-child(2) .signup-typepasswordiv{
+            position: relative;
+        }
+        
+        figcaption aside:nth-child(2) .signup-typepasswordicon{
             position: absolute;
-            top: 51%;
-            left: 72%;
+            top: 25%;
+            left: 88%;
             
         }
         
-        figcaption aside:nth-child(2) .retypepassword-icon{
+        figcaption aside:nth-child(2) .signup-retypepasswordiv{
+            position: relative;
+        }
+        
+        
+        figcaption aside:nth-child(2) .signup-retypepasswordicon{
             position: absolute;
-            top: 58%;
-            left: 72%;
+            top: 25%;
+            left: 88%;
             
         }
         
@@ -645,7 +775,7 @@
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 1rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -691,17 +821,26 @@
             position: relative;
         }
     
-        figcaption aside:nth-child(2) .typepassword-icon{
+        figcaption aside:nth-child(2) .signup-typepasswordiv{
+            position: relative;
+        }
+        
+        figcaption aside:nth-child(2) .signup-typepasswordicon{
             position: absolute;
-            top: 51%;
-            left: 81%;
+            top: 25%;
+            left: 88%;
             
         }
         
-        figcaption aside:nth-child(2) .retypepassword-icon{
+        figcaption aside:nth-child(2) .signup-retypepasswordiv{
+            position: relative;
+        }
+        
+        
+        figcaption aside:nth-child(2) .signup-retypepasswordicon{
             position: absolute;
-            top: 57%;
-            left: 81%;
+            top: 25%;
+            left: 88%;
             
         }
         
@@ -709,7 +848,7 @@
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -757,24 +896,34 @@
             position: relative;
         }
     
-        figcaption aside:nth-child(2) .typepassword-icon{
+        figcaption aside:nth-child(2) .signup-typepasswordiv{
+            position: relative;
+        }
+        
+        figcaption aside:nth-child(2) .signup-typepasswordicon{
             position: absolute;
-            top: 52%;
-            left: 81%;
+            top: 25%;
+            left: 88%;
             
         }
         
-        figcaption aside:nth-child(2) .retypepassword-icon{
+        figcaption aside:nth-child(2) .signup-retypepasswordiv{
+            position: relative;
+        }
+        
+        
+        figcaption aside:nth-child(2) .signup-retypepasswordicon{
             position: absolute;
-            top: 58%;
-            left: 81%;
+            top: 25%;
+            left: 88%;
+            
         }
         
     
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -791,7 +940,7 @@
 
 
     /* Desktops */
-    @media (min-width:1200px) and (max-width:1919px) {
+    /* @media (min-width:1200px) and (max-width:1919px) {
 
         figcaption{
             width: 100%;
@@ -822,24 +971,34 @@
             position: relative;
         }
     
-        figcaption aside:nth-child(2) .typepassword-icon{
+        figcaption aside:nth-child(2) .signup-typepasswordiv{
+            position: relative;
+        }
+        
+        figcaption aside:nth-child(2) .signup-typepasswordicon{
             position: absolute;
-            top: 52%;
-            left: 81%;
+            top: 25%;
+            left: 90%;
             
         }
         
-        figcaption aside:nth-child(2) .retypepassword-icon{
+        figcaption aside:nth-child(2) .signup-retypepasswordiv{
+            position: relative;
+        }
+        
+        
+        figcaption aside:nth-child(2) .signup-retypepasswordicon{
             position: absolute;
-            top: 58%;
-            left: 81%;
+            top: 25%;
+            left: 90%;
+            
         }
         
     
         figcaption aside:nth-child(2) div button{
             border: none;
             background: lime;
-            padding: 0.5rem 3rem;
+            padding: 0.75rem 3rem;
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
@@ -853,7 +1012,7 @@
         }
 
         
-    }
+    } */
 
     /* Welcome CSS */
 
@@ -866,7 +1025,8 @@
             height: 100vh;
             display: flex;
             flex-direction: column;
-            margin: 0 auto;
+            margin: 0 0;
+            padding: 1rem 1rem;
             gap: 1rem;
         }
         
@@ -890,47 +1050,10 @@
             margin-top: 1rem; 
             background: #ebebeb; 
             height: 30px; 
-            width: 50%;
+            width: 100%;
             
         }
 
-       
-         .welcome-half1 li div i{
-            left: 2%;
-        }
-
-        
-
-
-        .welcome-wrapper .welcome-half2{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: fit-content;
-            gap: 1rem;
-            background: #f4f4f4;
-            border-radius: 20px;
-            padding: 2rem 1rem;        
-        
-        }
-        
-        .welcome-wrapper .welcome-half2 button{
-            border: none;
-            background: lime;
-            padding: 0.5rem 1.5rem;
-            border-radius: 10px;
-            text-wrap: nowrap;
-            font-weight: 900;
-            font-size: 16px;
-        }
-        
-        .welcome-wrapper .welcome-half2 button a{
-            text-decoration: none;
-            color: black;
-            font-weight: 800;
-        }
-        
-        
         .welcome-half1 .search-icon{
             position: absolute;
             left: 5%;
@@ -944,13 +1067,1134 @@
             display: flex;
             flex-direction: row;
         }
+       
+
+    
+        .welcome-wrapper .welcome-half2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 90vh;
+            gap: 1rem;
+            background: #f4f4f4;
+            border-radius: 20px;
+            padding: 2rem 2rem;        
+        
+        }
+        
+        .welcome-wrapper .welcome-half2 button{
+            border: none;
+            background: lime;
+            padding: 1rem 5rem;
+            margin-top: 1.5rem;
+            border-radius: 10px;
+            text-wrap: nowrap;
+            font-weight: 900;
+            font-size: 16px;
+        }
+        
+        .welcome-wrapper .welcome-half2 button a{
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+        
+         
+        .welcome-half2 div h2{
+            font-size: 28px;
+            font-weight: 800;
+        }
+        
+        .welcome-half2 div p{
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+         
+    }
+
+
+
+
+
+
+    /* Welcome CSS */
+
+    /* Extra small devices */
+    @media (min-width:481px) and (max-width:767px) {
+     
+        .welcome-wrapper{
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .welcome-wrapper .welcome-half1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+            gap: 1rem;
+            background: #f4f4f4;
+            /* padding: 2rem 1rem 2rem 1rem; */
+            border-radius: 20px;
+        }
+
+        .welcome-half1 .menu-heading{
+            font-size: 16px;
+        }
+
+        .welcome-half1 form input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            background: #ebebeb; 
+            height: 30px; 
+            width: 100%;
+            
+        }
+
+        .welcome-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .welcome-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+       
+
+    
+        .welcome-wrapper .welcome-half2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 90vh;
+            gap: 1rem;
+            background: #f4f4f4;
+            border-radius: 20px;
+            padding: 2rem 2rem;        
+        
+        }
+        
+        .welcome-wrapper .welcome-half2 button{
+            border: none;
+            background: lime;
+            padding: 1rem 5rem;
+            margin-top: 1.5rem;
+            border-radius: 10px;
+            text-wrap: nowrap;
+            font-weight: 900;
+            font-size: 16px;
+        }
+        
+        .welcome-wrapper .welcome-half2 button a{
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+        
+         
+        .welcome-half2 div h2{
+            font-size: 28px;
+            font-weight: 800;
+        }
+        
+        .welcome-half2 div p{
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+         
+    }
+
+    
+
+    /* Small tablets */
+    @media (min-width:768px) and (max-width:991px) {
+     
+        .welcome-wrapper{
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            padding: 1rem 1rem;
+            margin: 0 0;
+            gap: 1rem;
+        }
+        
+        .welcome-wrapper .welcome-half1{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: 95vh;
+            gap: 1rem;
+            background: #f4f4f4;
+            border-radius: 20px;
+        }
+
+        .welcome-half1 .menu-heading{
+            font-size: 16px;
+        }
+
+        .welcome-half1 form input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            background: #ebebeb; 
+            height: 30px; 
+            width: 70%;
+            
+        }
+
+        .welcome-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .welcome-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+
+       
+
+        .welcome-wrapper .welcome-half2{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            height: 95vh;
+            gap: 1rem;
+            background: #f4f4f4;
+            border-radius: 20px;
+            padding: 8rem 4rem;        
+        
+        }
+        
+        .welcome-wrapper .welcome-half2 button{
+            border: none;
+            background: lime;
+            padding: 1rem 5rem;
+            margin-top: 1rem;
+            border-radius: 10px;
+            text-wrap: nowrap;
+            font-weight: 900;
+            font-size: 16px;
+        }
+        
+        .welcome-wrapper .welcome-half2 button a{
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+
+        .welcome-half2 div h2{
+            font-size: 36px;
+            font-weight: 800;
+        }
+        
+        .welcome-half2 div p{
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+    }
+        
+
+
+
+        /* Large tablets/laptops */
+    @media (min-width:992px) and (max-width:1199px) {
+     
+        .welcome-wrapper{
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            padding: 1rem 1rem;
+            margin: 0 0;
+            gap: 1rem;
+        }
+        
+        .welcome-wrapper .welcome-half1{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: 95vh;
+            gap: 1rem;
+            background: #f4f4f4;
+            border-radius: 20px;
+        }
+
+        .welcome-half1 .menu-heading{
+            font-size: 16px;
+        }
+
+        .welcome-half1 form input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            background: #ebebeb; 
+            height: 30px; 
+            width: 70%;
+            
+        }
+
+        .welcome-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .welcome-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+
+       
+
+        .welcome-wrapper .welcome-half2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 95vh;
+            gap: 1rem;
+            background: #f4f4f4;
+            border-radius: 20px;
+            padding: 8rem 4rem;        
+        
+        }
+        
+        .welcome-wrapper .welcome-half2 button{
+            border: none;
+            background: lime;
+            padding: 1rem 5rem;
+            margin-top: 1rem;
+            border-radius: 10px;
+            text-wrap: nowrap;
+            font-weight: 900;
+            font-size: 16px;
+        }
+        
+        .welcome-wrapper .welcome-half2 button a{
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+    
+        
+        .welcome-half2 div h2{
+            font-size: 36px;
+            font-weight: 800;
+        }
+        
+        .welcome-half2 div p{
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+
+
+    /* Upcoming CSS */
+    /* Mobile */
+    @media (max-width:480px) {
+        .upcoming-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .upcoming-wrapper .upcoming-half1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+            gap: 2rem;
+            background: #f4f4f4;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .upcoming-wrapper .upcoming-half1 input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            text-indent: 40px; 
+            background: #ebebeb; 
+            height: 30px; 
+            
+        }
+        
+        .upcoming-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
         
         
+        .upcoming-wrapper .upcoming-half2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            gap: 2rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 1rem 0rem;
+            text-align: left;
+        }
+
+
+        .upcoming-half2 form .upcoming-todaytaskdiv{
+            position: relative;
+        }
         
+        .upcoming-half2 form .upcomingtoday-taskicon{
+            position: absolute; 
+            top: 29%; 
+            left: 13%;
+        }
+
+        .upcoming-half2 form .upcomingtoday-databasediv{
+            position: relative;
+        }
+        
+        .upcoming-half2 form .upcomingtoday-databaseicon{
+            position: absolute; 
+            top: 18%; 
+            left: 1%;
+        }
+
+        .upcoming-half2 form .upcomingtoday-meetdiv{
+            position: relative;
+        }
+        
+        .upcoming-half2 form .upcomingtoday-meeticon{
+            position: absolute; 
+            top: 39.5%; 
+            left: 12%;
+        }
+
+
+        .upcoming-half2 form .upcomingtoday-websitediv{
+            position: relative;
+        }
+
+        .upcoming-half2 form .upcomingtoday-websiteicon{
+         position: absolute; 
+          top: 30%; 
+          left: 1%;
+        }
+
+
+        
+        
+
+
+        .upcoming-half2 .tomorrow-thisweek{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding-top: 1rem;
+            height: fit-content;
+        }
+        
+        .upcoming-half2 .tomorrow{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+        }
+        
+        .upcoming-half2 .thisweek{
+            width: 100%;
+            display: flex;
+            height: fit-content;
+            flex-direction: column;
+        }
         
         
     }
 
+
+
+    /* Today CSS */
+    /* Mobile */
+    @media (max-width:480px) {
+        .today-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .today-wrapper .today-half1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+            gap: 2rem;
+            background: #f4f4f4;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .today-wrapper .today-half1 input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            text-indent: 40px; 
+            background: #ebebeb; 
+            height: 40px;
+            width: 100%; 
+            
+        }
+        
+        .today-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .today-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .today-wrapper .today-half2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 1rem 1rem;
+            text-align: left;
+        }  
+
+        .today-half2 div form{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #00000066;
+            padding: 0 1rem 3rem 2rem;
+            border-radius: 30px;
+            height: fit-content;
+        }
+        
+        
+    }
+
+
+    /* Extra small devices */
+    @media (min-width:481px) and (max-width:767px) {
+            .today-wrapper{
+                /* max-width: 80vw; */
+                width: 100%;
+                background: #ffff;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                margin: 0 0;
+                padding: 1rem 1rem;
+                gap: 1rem;
+            }
+            
+            .today-wrapper .today-half1{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: fit-content;
+                gap: 2rem;
+                background: #f4f4f4;
+                padding: 1.5rem 1rem 2rem 1rem;
+                border-radius: 20px;
+            }
+            
+            .today-wrapper .today-half1 input{
+                border-radius: 20px; 
+                margin-top: 1rem; 
+                text-indent: 40px; 
+                background: #ebebeb; 
+                height: 40px; 
+                width: 100%;
+                
+            }
+            
+            .today-half1 .search-icon{
+                position: absolute;
+                left: 5%;
+                top: 13%;
+            }
+                
+            .today-half1 .submenu{
+                line-height: 22px;
+                font-size: 16px;
+                color: black;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .today-wrapper .today-half2{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: fit-content;
+                gap: 1rem;
+                background: #ffff;
+                border-radius: 20px;
+                padding: 1rem 1rem;
+                text-align: left;
+            }
+
+            .today-half2 div form{
+                display: flex;
+                flex-direction: column;
+                border: 1px solid #00000066;
+                padding: 0 1rem 3rem 2rem;
+                border-radius: 30px;
+                height: fit-content;
+            }
+            
+       
+        
+    }
+
+
+    /* Small tablets */
+    @media (min-width:768px) and (max-width:991px) {
+        .today-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .today-wrapper .today-half1{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 85vh;
+            gap: 2rem;
+            background: #f4f4f4;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .today-wrapper .today-half1 input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            text-indent: 40px; 
+            background: #ebebeb; 
+            height: 40px;
+            width: 100%; 
+            
+        }
+        
+        .today-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .today-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .today-wrapper .today-half2{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 0.5rem 2rem;
+            text-align: left;
+        }  
+
+        
+    }
+
+    /* Large tablets/laptops */
+    @media (min-width:992px) and (max-width:1199px) {
+        .today-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            background: #ffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .today-wrapper .today-half1{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 85vh;
+            gap: 2rem;
+            background: #f4f4f4;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .today-wrapper .today-half1 input{
+            border-radius: 20px; 
+            margin-top: 1rem; 
+            text-indent: 40px; 
+            background: #ebebeb; 
+            height: 40px;
+            width: 100%; 
+            
+        }
+        
+        .today-half1 .search-icon{
+            position: absolute;
+            left: 5%;
+            top: 13%;
+        }
+            
+        .today-half1 .submenu{
+            line-height: 22px;
+            font-size: 16px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .today-wrapper .today-half2{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 0.5rem 2rem;
+            text-align: left;
+        }  
+
+        
+    }
+
+
+
+
+    /* Calender CSS */
+    /* Mobile */
+    @media (max-width:480px) {
+        .calender-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .calender-wrapper .calender-half1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 95vh;
+            gap: 2rem;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+
+        .calender-wrapper .calender-half2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 1rem 2rem;
+            text-align: left;
+        }
+
+        .calender-half2 div form{
+            height: 70vh;
+        }
+
+
+        .calender-half2 form img{
+            display: none;
+        
+        }
+
+        .calender-half2 button{
+            position: absolute; 
+            top: 1%; 
+            left: 88%;
+            text-wrap: wrap;
+            padding: 6px 6px;
+        }
+        
+
+        .calender-half2 form .database-paragraph{
+            width: 65%;
+            
+        }
+
+        .calender-half2 form .meet-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 form .database2-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 .dayweek-month p{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 0.5rem;
+            width: 65%;
+            background-color: #c4c4c4;
+            border-radius: 10px;
+            word-spacing: 5px;
+            font-size: 15px;
+        }
+
+
+        .calender-half2 div form{
+            padding: 1rem 1rem 3rem 2rem;
+        }
+
+        .calender-half2 form .tuesday{
+            font-weight: 800;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+
+          
+    }
+
+
+    /* Extra small devices */
+    @media (min-width:481px) and (max-width:767px){
+
+            .calender-wrapper{
+                /* max-width: 80vw; */
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                margin: 0 0;
+                padding: 1rem 1rem;
+                gap: 1rem;
+            }
+            
+            .calender-wrapper .calender-half1{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 95vh;
+                gap: 2rem;
+                padding: 1.5rem 1rem 2rem 1rem;
+                border-radius: 20px;
+            }
+    
+            .calender-wrapper .calender-half2{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100vh;
+                gap: 1rem;
+                background: #ffff;
+                border-radius: 20px;
+                padding: 1rem 2rem;
+                text-align: left;
+            }
+
+            .calender-half2 div form{
+                height: 70vh;
+            }
+
+    
+            .calender-half2 form img{
+                display: none;
+            
+            }
+
+            .calender-half2 button{
+                position: absolute; 
+                top: 1%; 
+                left: 88%;
+                text-wrap: wrap;
+                padding: 6px 6px;
+            }
+            
+    
+            .calender-half2 form .database-paragraph{
+                width: 65%;
+                
+            }
+    
+            .calender-half2 form .meet-paragraph{
+                width: 65%;
+            }
+    
+            .calender-half2 form .database2-paragraph{
+                width: 65%;
+            }
+    
+            .calender-half2 .dayweek-month p{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                gap: 0.5rem;
+                width: 65%;
+                background-color: #c4c4c4;
+                border-radius: 10px;
+                word-spacing: 5px;
+                font-size: 15px;
+            }
+    
+    
+            .calender-half2 div form{
+                padding: 1rem 1rem 3rem 2rem;
+            }
+    
+            .calender-half2 form .tuesday{
+                font-weight: 800;
+                padding: 1rem 2rem 1rem 2rem;
+            } 
+        
+    }
+
+    /* Small tablets */
+    @media (min-width:768px) and (max-width:991px) {
+            .calender-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: row;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .calender-wrapper .calender-half1{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 80vh;
+            gap: 2rem;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+
+        .calender-wrapper .calender-half2{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 1rem 2rem;
+            text-align: left;
+        }
+
+        .calender-half2 div form{
+            height: 70vh;
+        }
+
+
+        .calender-half2 form img{
+            display: none;
+        
+        }
+
+        .calender-half2 button{
+            position: absolute; 
+            top: 1%; 
+            left: 88%;
+            text-wrap: wrap;
+            padding: 6px 6px;
+        }
+        
+
+        .calender-half2 form .database-paragraph{
+            width: 65%;
+            
+        }
+
+        .calender-half2 form .meet-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 form .database2-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 .dayweek-month p{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 0.5rem;
+            width: 65%;
+            background-color: #c4c4c4;
+            border-radius: 10px;
+            word-spacing: 5px;
+            font-size: 15px;
+        }
+
+
+        .calender-half2 div form{
+            padding: 1rem 1rem 3rem 2rem;
+        }
+
+        .calender-half2 form .tuesday{
+            font-weight: 800;
+            padding: 1rem 2rem 1rem 2rem;
+        } 
+    }
+
+
+    /* Large tablets/laptops */
+    @media (min-width:992px) and (max-width:1199px) {
+
+        .calender-wrapper{
+            /* max-width: 80vw; */
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: row;
+            margin: 0 0;
+            padding: 1rem 1rem;
+            gap: 1rem;
+        }
+        
+        .calender-wrapper .calender-half1{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            height: 80vh;
+            gap: 2rem;
+            padding: 1.5rem 1rem 2rem 1rem;
+            border-radius: 20px;
+        }
+
+        .calender-wrapper .calender-half2{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            height: 70vh;
+            gap: 1rem;
+            background: #ffff;
+            border-radius: 20px;
+            padding: 1rem 2rem;
+            text-align: left;
+        }
+
+        .calender-half2 div form{
+            height: 70vh;
+        }
+
+
+        .calender-half2 form img{
+            display: none;
+        
+        }
+
+        .calender-half2 button{
+            position: absolute; 
+            top: 1%; 
+            left: 88%;
+            text-wrap: wrap;
+            padding: 6px 6px;
+        }
+        
+
+        .calender-half2 form .database-paragraph{
+            width: 65%;
+            
+        }
+
+        .calender-half2 form .meet-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 form .database2-paragraph{
+            width: 65%;
+        }
+
+        .calender-half2 .dayweek-month p{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 0.5rem;
+            width: 65%;
+            background-color: #c4c4c4;
+            border-radius: 10px;
+            word-spacing: 5px;
+            font-size: 15px;
+        }
+
+
+        .calender-half2 div form{
+            padding: 1rem 1rem 3rem 2rem;
+        }
+
+        .calender-half2 form .tuesday{
+            font-weight: 800;
+            padding: 1rem 2rem 1rem 2rem;
+        } 
+    }
+
+        
+        
+    
 
 
 

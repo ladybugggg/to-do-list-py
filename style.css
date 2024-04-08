@@ -174,6 +174,7 @@ figure aside:nth-child(2) div p{
 
 
 figure aside:nth-child(2) .social-login{
+    width: 100%;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -187,9 +188,16 @@ figure aside:nth-child(2) .social-login{
     border-right: none;
 }
 
-.social-login .google, .facebook, .or{
+.social-login .google, .facebook{
     display: flex;
     flex-direction: column;
+    width: 40%;
+    padding-top: 1rem;
+}
+.or{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
     padding-top: 1rem;
 }
 
@@ -433,6 +441,7 @@ figcaption aside:nth-child(2) div p{
     text-indent: 40px; 
     background: #ebebeb; 
     height: 30px; 
+    width: 100%;
     
 }
 
@@ -672,6 +681,8 @@ figcaption aside:nth-child(2) div p{
     text-indent: 40px; 
     background: #ebebeb; 
     height: 30px; 
+    width: 100%;
+
     
 }
 
@@ -768,6 +779,7 @@ figcaption aside:nth-child(2) div p{
     text-indent: 40px; 
     background: #ebebeb; 
     height: 30px; 
+    width: 100%;
     
 }
 
@@ -884,11 +896,14 @@ figcaption aside:nth-child(2) div p{
 
 .calender-half2 .dayweek-month p{
     width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: #c4c4c4;
     border-radius: 10px;
     word-spacing: 10px;
     font-size: 15px;
-    padding: 1px 0 1px 7px;
+    padding: 1px 0 1px 1px;
     
 }
 

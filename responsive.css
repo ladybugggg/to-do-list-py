@@ -1228,7 +1228,6 @@
             margin-top: 1.5rem;
             border-radius: 10px;
             text-wrap: nowrap;
-            font-size: 16px;
             font-size: 20px;
             font-weight: 400;
 
@@ -1252,10 +1251,7 @@
             text-align: center;
         }
 
-        .welcome-half2 aside:nth-child(2) div h2{
-            font-size: 36px; 
-            font-weight: 800;
-        }
+        
          
     }
 
@@ -1362,10 +1358,6 @@
             text-align: center;
         }
 
-        .welcome-half2 aside:nth-child(2) div h2{
-            font-size: 36px; 
-            font-weight: 800;
-        }
          
     }
 

@@ -55,7 +55,7 @@ section aside:nth-child(2) div button{
     text-wrap: nowrap;
     border-radius: 10px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
 
 }
 
@@ -156,7 +156,7 @@ figure aside:nth-child(2) form button{
     background: lime;
     padding: 15px 150px;
     color: black;
-    font-weight: 600;
+    font-weight: 400;
     text-wrap: nowrap;
     border-radius: 10px;
     width: 100%;
@@ -306,7 +306,7 @@ figcaption aside:nth-child(2) form button{
     border-radius: 10px;
     width: 100%;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
 
 }
 
@@ -406,7 +406,7 @@ section aside:nth-child(2) div h2{
     padding: 1rem 5rem;
     border-radius: 10px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
 
     
 }

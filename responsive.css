@@ -42,12 +42,12 @@
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 8rem;
+        padding: 1rem 7rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 400;
 
         
     }
@@ -100,7 +100,7 @@
         text-wrap: nowrap;
         border-radius: 10px;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 400;
 
         
     }

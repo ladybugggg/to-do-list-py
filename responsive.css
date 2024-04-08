@@ -42,7 +42,7 @@
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 5rem;
+        padding: 1rem 6rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -362,7 +362,7 @@
         background: lime;
         padding: 1rem 3rem;
         color: black;
-        font-weight: 800;
+        font-weight: 400;
         text-wrap: nowrap;
         border-radius: 10px;
         font-size: 20px;
@@ -398,7 +398,12 @@
         text-align: center;
     } 
 
+    figure aside:nth-child(2) div h2{
+        font-size: 36px; 
+        font-weight: 800;
     }
+
+}
 
     
     /* Extra small devices */
@@ -476,7 +481,7 @@
             background: lime;
             padding: 1rem 3rem;
             color: black;
-            font-weight: 800;
+            font-weight: 400;
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
@@ -494,6 +499,12 @@
             font-size: 15px;
             text-align: center;
         } 
+
+        figure aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
+        }
+        
      
     } 
 
@@ -549,7 +560,7 @@
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         
         }
@@ -564,6 +575,11 @@
         figure aside:nth-child(2) div p{
             font-size: 15px;
             text-align: center;
+        }
+
+        figure aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
         }
 
         
@@ -621,7 +637,7 @@
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         
         }
@@ -636,6 +652,11 @@
         figure aside:nth-child(2) div p{
             font-size: 15px;
             text-align: center;
+        }
+
+        figure aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
         }
         
     }
@@ -692,7 +713,7 @@
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         
         }
@@ -707,6 +728,11 @@
         figure aside:nth-child(2) div p{
             font-size: 15px;
             text-align: center;
+        }
+
+        figure aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
         }
 
         
@@ -780,7 +806,7 @@
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
         
         }
     
@@ -788,6 +814,11 @@
             font-size: 15px;
             text-align: center;
         } 
+
+        figcaption aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
+        }
 
     }
 
@@ -857,7 +888,7 @@
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
         
         }
     
@@ -865,6 +896,11 @@
             font-size: 15px;
             text-align: center;
         } 
+
+        figcaption aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
+        }
     }
 
 
@@ -932,7 +968,7 @@
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         
         }
@@ -941,6 +977,11 @@
         figcaption aside:nth-child(2) div p{
             font-size: 15px;
             text-align: center;
+        }
+
+        figcaption aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
         }
 
     }
@@ -1010,7 +1051,7 @@
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         
         }
@@ -1019,6 +1060,11 @@
         figcaption aside:nth-child(2) div p{
             font-size: 15px;
             text-align: center;
+        }
+
+        figcaption aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
         }
 
     }
@@ -1088,7 +1134,7 @@
             text-wrap: nowrap;
             border-radius: 10px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         
         }
@@ -1097,6 +1143,11 @@
         figcaption aside:nth-child(2) div p{
             font-size: 15px;
             text-align: center;
+        }
+
+        figcaption aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
         }
 
         
@@ -1180,7 +1231,7 @@
             font-weight: 900;
             font-size: 16px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         }
         
@@ -1200,6 +1251,11 @@
             font-size: 16px;
             font-weight: 400;
             text-align: center;
+        }
+
+        .welcome-half2 aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
         }
          
     }
@@ -1284,9 +1340,8 @@
             margin-top: 1.5rem;
             border-radius: 10px;
             text-wrap: nowrap;
-            font-weight: 900;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         }
         
@@ -1306,6 +1361,11 @@
             font-size: 16px;
             font-weight: 400;
             text-align: center;
+        }
+
+        .welcome-half2 aside:nth-child(2) div h2{
+            font-size: 36px; 
+            font-weight: 800;
         }
          
     }
@@ -1385,7 +1445,7 @@
             border-radius: 10px;
             text-wrap: nowrap;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         }
         
@@ -1484,7 +1544,7 @@
             border-radius: 10px;
             text-wrap: nowrap;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 400;
 
         }
         

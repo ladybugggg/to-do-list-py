@@ -42,7 +42,7 @@
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 7rem;
+        padding: 1rem 5rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -95,7 +95,7 @@
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 7rem;
+        padding: 1rem 6rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
@@ -152,12 +152,12 @@
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 8rem;
+        padding: 1rem 5rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
         font-size: 20px;
-        font-weight: 800;
+        font-weight: 400;
 
         
     }
@@ -208,12 +208,12 @@
     section aside:nth-child(2) div button{
         border: none;
         background: lime;
-        padding: 1rem 8rem;
+        padding: 1rem 6rem;
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
         font-size: 20px;
-        font-weight: 800;
+        font-weight: 400;
 
         
     }
@@ -282,7 +282,7 @@
         text-wrap: nowrap;
         border-radius: 10px;
         font-size: 20px;
-        font-weight: 800;
+        font-weight: 400;
 
     
     }

@@ -365,7 +365,8 @@ section aside:nth-child(2) div h2{
     margin-top: 1rem; 
     text-indent: 40px; 
     background: #ebebeb; 
-    height: 30px; 
+    height: 30px;
+    width: 100%; 
     
 }
 
@@ -380,9 +381,15 @@ section aside:nth-child(2) div h2{
     font-size: 16px;
     color: black;
     display: flex;
-    flex-direction: row;
 }
 
+.welcome-half1 .wps{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 0.5rem;
+}
 
 
 
@@ -454,6 +461,14 @@ section aside:nth-child(2) div h2{
     background: #f4f4f4;
     padding: 1.5rem 1rem 2rem 1rem;
     border-radius: 20px;
+}
+
+.upcoming-half1 .wps{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 0.5rem;
 }
 
 .upcoming-wrapper .upcoming-half1 input{
@@ -689,12 +704,21 @@ section aside:nth-child(2) div h2{
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 90vh;
+    height: 95vh;
     gap: 2rem;
     background: #f4f4f4;
     padding: 1.5rem 1rem 2rem 1rem;
     border-radius: 20px;
 }
+
+.today-half1 .wps{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 0.5rem;
+}
+
 
 .today-wrapper .today-half1 input{
     border-radius: 20px; 
@@ -794,6 +818,15 @@ section aside:nth-child(2) div h2{
     border-radius: 20px;
 }
 
+.calender-half1 .wps{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 0.5rem;
+}
+
+
 .calender-wrapper .calender-half1 input{
     border-radius: 20px; 
     margin-top: 1rem; 
@@ -803,6 +836,7 @@ section aside:nth-child(2) div h2{
     width: 100%;
     
 }
+
 
 .calender-half1 .search-icon{
     position: absolute;

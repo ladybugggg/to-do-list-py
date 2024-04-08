@@ -327,6 +327,7 @@
 
     figure aside:nth-child(2) form input{
         position: relative;
+        height: 45px;
     }
 
     figure aside:nth-child(2) .signin-passwordiv{
@@ -355,8 +356,25 @@
     figure aside:nth-child(2) .social-login{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        align-items: center;
     
     }
+
+    .social-login .google, .facebook{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .or{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        padding-top: 1rem;
+    }
+    
     
     figure aside:nth-child(2) div p{
         font-size: 15px;

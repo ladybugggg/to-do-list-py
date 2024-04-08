@@ -182,7 +182,7 @@ figure aside:nth-child(2) .social-login{
 }
 
 .social-login input{
-    width: 95%;
+    width: 100%;
     border-top: none;
     border-left: none;
     border-right: none;

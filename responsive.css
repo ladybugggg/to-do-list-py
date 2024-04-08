@@ -46,6 +46,9 @@
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
+        font-size: 20px;
+        font-weight: 800;
+
         
     }
 
@@ -96,6 +99,9 @@
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
+        font-size: 20px;
+        font-weight: 800;
+
         
     }
 
@@ -150,6 +156,9 @@
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
+        font-size: 20px;
+        font-weight: 800;
+
         
     }
 
@@ -203,6 +212,9 @@
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
+        font-size: 20px;
+        font-weight: 800;
+
         
     }
 
@@ -269,6 +281,9 @@
         color: black;
         text-wrap: nowrap;
         border-radius: 10px;
+        font-size: 20px;
+        font-weight: 800;
+
     
     }
     
@@ -347,8 +362,10 @@
         background: lime;
         padding: 1rem 3rem;
         color: black;
+        font-weight: 800;
         text-wrap: nowrap;
         border-radius: 10px;
+        font-size: 20px;
     
     }
 
@@ -399,7 +416,7 @@
         
         figure aside:nth-child(1){
             display: none;
-        }
+        }   
         
         figure aside:nth-child(1) img{
             width: 100%;
@@ -429,6 +446,29 @@
             left: 90%;
             top: 25%;
         }
+
+        figure aside:nth-child(2) .social-login{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        
+        }
+    
+        .social-login .google, .facebook{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding-top: 1rem;
+            text-align: center;
+        }
+        .or{
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            padding-top: 1rem;
+        }
+        
         
     
         figure aside:nth-child(2) div button{
@@ -436,8 +476,10 @@
             background: lime;
             padding: 1rem 3rem;
             color: black;
+            font-weight: 800;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
         
         }
     
@@ -506,6 +548,9 @@
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
+            font-weight: 800;
+
         
         }
     
@@ -575,6 +620,9 @@
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
+            font-weight: 800;
+
         
         }
     
@@ -643,6 +691,9 @@
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
+            font-weight: 800;
+
         
         }
     
@@ -694,6 +745,7 @@
     
         figcaption aside:nth-child(2) form input{
             position: relative;
+            height: 50px;
         }
     
         figcaption aside:nth-child(2) .signup-typepasswordiv{
@@ -727,6 +779,8 @@
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
+            font-weight: 800;
         
         }
     
@@ -768,6 +822,7 @@
     
         figcaption aside:nth-child(2) form input{
             position: relative;
+            height: 50px;
         }
     
         figcaption aside:nth-child(2) .signup-typepasswordiv{
@@ -801,6 +856,8 @@
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
+            font-weight: 800;
         
         }
     
@@ -874,6 +931,9 @@
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
+            font-weight: 800;
+
         
         }
     
@@ -949,6 +1009,9 @@
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
+            font-weight: 800;
+
         
         }
     
@@ -1024,6 +1087,9 @@
             color: black;
             text-wrap: nowrap;
             border-radius: 10px;
+            font-size: 20px;
+            font-weight: 800;
+
         
         }
     
@@ -1113,6 +1179,9 @@
             text-wrap: nowrap;
             font-weight: 900;
             font-size: 16px;
+            font-size: 20px;
+            font-weight: 800;
+
         }
         
         .welcome-wrapper .welcome-half2 button a{
@@ -1216,7 +1285,9 @@
             border-radius: 10px;
             text-wrap: nowrap;
             font-weight: 900;
-            font-size: 16px;
+            font-size: 20px;
+            font-weight: 800;
+
         }
         
         .welcome-wrapper .welcome-half2 button a{
@@ -1313,8 +1384,9 @@
             margin-top: 1rem;
             border-radius: 10px;
             text-wrap: nowrap;
-            font-weight: 900;
-            font-size: 16px;
+            font-size: 20px;
+            font-weight: 800;
+
         }
         
         .welcome-wrapper .welcome-half2 button a{
@@ -1411,8 +1483,9 @@
             margin-top: 1rem;
             border-radius: 10px;
             text-wrap: nowrap;
-            font-weight: 900;
-            font-size: 16px;
+            font-size: 20px;
+            font-weight: 800;
+
         }
         
         .welcome-wrapper .welcome-half2 button a{
